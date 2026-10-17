@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Surf Zones · Crypto buy and sell zones</title>
+<meta name="description" content="Crypto buy and sell zones for long-term position traders. Surf Zones by @_CryptoSurf. Free, rules-based, monthly.">
+<meta property="og:title" content="Surf Zones · Crypto buy and sell zones"><meta property="og:site_name" content="Surf Zones"><meta property="og:description" content="Crypto buy and sell zones for long-term position traders. Updated October 2026.">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Surf Zones · Crypto buy and sell zones"><meta name="twitter:description" content="Crypto buy and sell zones for long-term position traders. Updated October 2026.">
+<meta name="theme-color" content="#0b1626"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b1626'/%3E%3Cpath d='M4 19c4-5 8-5 12 0s8 5 12 0' fill='none' stroke='%233d9bff' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#0a1424;--bg2:#0d1a2e;--card:#101f36;--line:#1c2f4d;--tx:#e7eef7;--mu:#8ba0bb;--fa:#5f7593;--buy:#3d9bff;--sell:#ff9a1f;--neu:#7d8ea6;--r:14px}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:linear-gradient(180deg,#0c1a30 0,var(--bg) 420px) var(--bg);color:var(--tx);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Inter,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--buy);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+.hero{position:relative;padding:44px 0 34px;overflow:hidden}
+.hero .wave{position:absolute;left:0;right:0;bottom:0;width:100%;height:48px;color:var(--buy);opacity:.28}
+.brand{display:flex;align-items:center;gap:10px;color:var(--mu);font-size:13px;letter-spacing:.04em}
+.brand a{color:var(--mu)}
+h1{font-size:40px;line-height:1.1;margin:14px 0 8px;letter-spacing:-.02em;font-weight:700}
+.subtitle{font-size:17.25px;color:rgba(231,238,247,.8);margin:0 0 14px;letter-spacing:.02em}
+.tag-line{font-size:19px;color:#c4d3e6;margin:0 0 14px}
+.updated{display:inline-block;font-size:13px;color:var(--mu);border:1px solid var(--line);border-radius:999px;padding:3px 11px}
+.intro{color:#c4d3e6;max-width:680px;margin:6px 0 0}
+.intro p{margin:0 0 10px}
+.rules{display:grid;gap:10px;margin:34px 0 0}
+.rule{border:1px solid var(--line);border-left:3px solid var(--buy);background:var(--bg2);border-radius:10px;padding:10px 14px;font-size:15px}
+.rule.s{border-left-color:var(--sell)}.rule b{font-weight:600}
+section{padding:30px 0}
+h2{font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
+.sub{color:var(--mu);margin:0 0 18px;font-size:15px}
+.grid{display:grid;gap:14px}
+.coin{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px 16px 14px}
+.coin.z-buy{border-top:2px solid var(--buy)}.coin.z-sell{border-top:2px solid var(--sell)}
+.coin header{display:flex;justify-content:space-between;align-items:center}
+.coin .id{display:flex;align-items:baseline;gap:8px}.coin h3{margin:0;font-size:20px;letter-spacing:.01em}.nm{color:var(--mu);font-size:14px}
+.zone{font-size:13px;font-weight:600;padding:3px 10px;border-radius:999px}
+.zone.buy{background:rgba(61,155,255,.14);color:var(--buy)}.zone.sell{background:rgba(255,154,31,.14);color:var(--sell)}.zone.neu{background:rgba(125,142,166,.14);color:#a9b7ca}
+.score{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:12px 0 4px;font-size:14px}
+.divnow{margin:0 0 8px;padding:6px 10px;border-radius:8px;font-size:13px;font-weight:600}
+.divnow.bull{background:rgba(64,156,255,.14);color:var(--buy);border:1px solid rgba(64,156,255,.45)}
+.divnow.bear{background:rgba(255,159,28,.14);color:var(--sell);border:1px solid rgba(255,159,28,.45)}
+.asof{margin:8px 0 0;font-size:13px;color:var(--mu)}
+.score .lbl{color:var(--mu)}.score .num{font-weight:600}.score .why{color:var(--fa);font-size:13px;flex-basis:100%}
+.dots{display:inline-flex;gap:5px}.dots i{width:11px;height:11px;border-radius:50%;border:1.5px solid var(--fa)}
+.dots.buy i{border-color:var(--buy)}.dots.buy i.on{background:var(--buy)}.dots.sell i{border-color:var(--sell)}.dots.sell i.on{background:var(--sell)}
+.track{position:relative;height:6px;margin:16px 2px 0;border-radius:3px;background:linear-gradient(90deg,rgba(61,155,255,.35),rgba(61,155,255,.08) 50%,rgba(255,154,31,.08) 75%,rgba(255,154,31,.35))}
+.tk{position:absolute;top:-4px;width:2px;height:14px;border-radius:1px;transform:translateX(-1px)}.tk.sma{background:var(--buy)}.tk.x2{background:var(--sell)}
+.px{position:absolute;top:50%;width:13px;height:13px;border-radius:50%;background:var(--tx);border:3px solid var(--card);transform:translate(-50%,-50%);box-shadow:0 0 0 1px #9fb3cc}
+.tlabels{position:relative;height:16px;font-size:11px;color:var(--fa);margin:3px 2px 0}.tlabels span{position:absolute;transform:translateX(-50%)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0 0}
+.stats div{background:var(--bg2);border-radius:9px;padding:7px 10px}.stats dt{font-size:11.5px;color:var(--mu)}.stats dd{margin:0;font-weight:600;font-variant-numeric:tabular-nums}
+.legend{display:grid;gap:14px}
+.lg{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
+.lg h3{margin:0 0 8px;font-size:15px}.lg ul{list-style:none;margin:0;padding:0;display:grid;gap:7px;font-size:14.5px}
+.lg li{display:flex;gap:10px;align-items:center}
+.notq{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.notq li{display:grid;grid-template-columns:62px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+.notq b{font-weight:600}.notq span{color:#b9c7d9}
+.callout{margin:16px 0 0;color:#c4d3e6;font-size:15.5px}
+.newer{color:var(--mu);font-size:14px;margin:12px 0 0}
+.note{color:#c4d3e6;font-size:15px;margin:14px 0 0}
+.xwave{display:block;width:100%;height:48px;color:var(--buy);opacity:.28}   /* same wave as the header, full width, above the referrals/tip row */
+footer{border-top:1px solid var(--line);margin-top:20px;padding:28px 0 40px;color:var(--mu);font-size:14px}
+.toolsh{font-size:17px;margin:0 0 12px}
+.tools{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-start}
+.tool{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:14px;color:var(--tx);background:var(--bg2)}.tool:hover{border-color:var(--buy);text-decoration:none}
+#extras{display:grid;gap:24px;padding:30px 0}.xsep{display:none}.xblk .tools{margin:0}
+.xblk{text-align:center}.xblk .tools{justify-content:center}   /* mobile (stacked): both blocks centred */
+.refnote{font-size:13px;font-weight:400;color:var(--fa);margin-left:4px}
+#sponsor{padding:6px 0 0}
+.ind{color:#c4d3e6;font-size:15px;max-width:760px;margin:0 0 12px}
+.indl{list-style:none;margin:0 0 16px;padding:0;max-width:760px;border-top:1px solid var(--line)}
+.indl li{display:grid;grid-template-columns:96px 1fr;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+.indl b{font-weight:600;color:var(--tx)}.indl b.b{color:var(--buy)}.indl b.s{color:var(--sell)}.indl span{color:#b9c7d9}
+.indbtn{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:14px;color:var(--tx);background:var(--bg2)}.indbtn:hover{border-color:var(--buy);text-decoration:none}
+.sponsor{display:block;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px 16px;color:var(--tx)}.sponsor:hover{text-decoration:none;border-color:#2a4366}
+.splbl{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--fa);margin-bottom:6px}
+.spbody{display:flex;align-items:center;gap:12px}.spbody img{width:40px;height:40px;border-radius:8px;object-fit:contain;background:var(--bg2)}
+.spbody b{font-weight:600}.sptx{display:block;color:var(--mu);font-size:14px}
+.spinv{margin:0;font-size:13px;color:var(--fa)}.spinv a{color:var(--fa)}
+.nfa{color:var(--tx);margin:0 0 6px}
+.fine{font-size:12px;color:var(--fa);line-height:1.5;margin-top:18px}.fine p{margin:0 0 6px}
+@media (min-width:720px){
+  h1{font-size:54px}.hero{padding:64px 0 46px}
+  .rules{grid-template-columns:1fr 1fr}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .legend{grid-template-columns:1fr 1fr}
+  #extras.two{grid-template-columns:1fr auto 1fr;column-gap:40px;align-items:start}
+  #extras.two .xsep{display:block;width:1px;background:var(--line);align-self:stretch}
+  .xblk{text-align:left}.xblk .tools{justify-content:flex-start}
+  #extras.two #tools{text-align:right}#extras.two #tools .tools{justify-content:flex-end}   /* mirrored: left block flush to the centre line */
+  .notq{columns:2;column-gap:32px;border-top:0}.notq li{break-inside:avoid}
+}
+@media (min-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}}
+</style></head>
+<body>
+<div class="hero"><div class="wrap">
+  <h1>Surf Zones</h1>
+  <p class="subtitle">Crypto buy and sell zones for long-term position traders</p>
+  <div class="rules">
+    <div class="rule"><b style="color:var(--buy)">Buy zone</b> · price at or below the 200-week SMA, with monthly RSI at or below 50.</div>
+    <div class="rule s"><b style="color:var(--sell)">Sell zone</b> · price at or above 2× the 200-week SMA, with monthly RSI at or above 75.</div>
+  </div>
+</div><svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 34 C150 14 300 14 450 32 S750 52 900 32 S1100 14 1200 26" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M0 46 C200 30 350 30 520 44 S820 58 980 42 S1130 34 1200 40" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/></svg></div>
+
+<main class="wrap">
+<section id="list" style="padding-top:36px">
+  <div class="grid">
+<article class="coin z-neu">
+  <header><div class="id"><h3>BTC</h3><span class="nm">Bitcoin</span></div><span class="zone neu">Neutral</span></header>
+  <div class="score"><span class="lbl">Score</span><span class="dots neu" role="img" aria-label="score 0 of 3"><i class=""></i><i class=""></i><i class=""></i></span><span class="num">0/3</span></div>
+  
+  <div class="track" aria-hidden="true"><span class="tk sma" style="left:50.0%"></span><span class="tk x2" style="left:75.0%"></span><span class="px" style="left:57.7%"></span></div><div class="tlabels"><span style="left:50.0%">200W</span><span style="left:75.0%">2×</span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="">+24%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−38%</dd></div><div><dt>Monthly RSI</dt><dd>52</dd></div></dl>
+</article>
+<article class="coin z-buy">
+  <header><div class="id"><h3>LTC</h3><span class="nm">Litecoin</span></div><span class="zone buy">Buy</span></header>
+  <div class="score"><span class="lbl">Buy score</span><span class="dots buy" role="img" aria-label="score 1 of 3"><i class="on"></i><i class=""></i><i class=""></i></span><span class="num">1/3</span></div>
+  
+  <div class="track" aria-hidden="true"><span class="tk sma" style="left:50.0%"></span><span class="tk x2" style="left:75.0%"></span><span class="px" style="left:39.4%"></span></div><div class="tlabels"><span style="left:50.0%">200W</span><span style="left:75.0%">2×</span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−26%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−63%</dd></div><div><dt>Monthly RSI</dt><dd>45</dd></div></dl>
+</article>
+<article class="coin z-buy">
+  <header><div class="id"><h3>DOGE</h3><span class="nm">Dogecoin</span></div><span class="zone buy">Buy</span></header>
+  <div class="score"><span class="lbl">Buy score</span><span class="dots buy" role="img" aria-label="score 1 of 3"><i class="on"></i><i class=""></i><i class=""></i></span><span class="num">1/3</span></div>
+  
+  <div class="track" aria-hidden="true"><span class="tk sma" style="left:50.0%"></span><span class="tk x2" style="left:75.0%"></span><span class="px" style="left:30.8%"></span></div><div class="tlabels"><span style="left:50.0%">200W</span><span style="left:75.0%">2×</span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−41%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−71%</dd></div><div><dt>Monthly RSI</dt><dd>43</dd></div></dl>
+</article>
+<article class="coin z-neu">
+  <header><div class="id"><h3>XMR</h3><span class="nm">Monero</span></div><span class="zone neu">Neutral</span></header>
+  <div class="score"><span class="lbl">Score</span><span class="dots neu" role="img" aria-label="score 0 of 3"><i class=""></i><i class=""></i><i class=""></i></span><span class="num">0/3</span></div>
+  
+  <div class="track" aria-hidden="true"><span class="tk sma" style="left:50.0%"></span><span class="tk x2" style="left:75.0%"></span><span class="px" style="left:80.5%"></span></div><div class="tlabels"><span style="left:50.0%">200W</span><span style="left:75.0%">2×</span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="">+133%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>+16%</dd></div><div><dt>Monthly RSI</dt><dd>70</dd></div></dl>
+</article>
+<article class="coin z-buy">
+  <header><div class="id"><h3>ETH</h3><span class="nm">Ethereum</span></div><span class="zone buy">Buy</span></header>
+  <div class="score"><span class="lbl">Buy score</span><span class="dots buy" role="img" aria-label="score 1 of 3"><i class="on"></i><i class=""></i><i class=""></i></span><span class="num">1/3</span></div>
+  
+  <div class="track" aria-hidden="true"><span class="tk sma" style="left:50.0%"></span><span class="tk x2" style="left:75.0%"></span><span class="px" style="left:48.5%"></span></div><div class="tlabels"><span style="left:50.0%">200W</span><span style="left:75.0%">2×</span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−4%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−52%</dd></div><div><dt>Monthly RSI</dt><dd>49</dd></div></dl>
+</article>
+<article class="coin z-buy">
+  <header><div class="id"><h3>XLM</h3><span class="nm">Stellar</span></div><span class="zone buy">Buy</span></header>
+  <div class="score"><span class="lbl">Buy score</span><span class="dots buy" role="img" aria-label="score 1 of 3"><i class="on"></i><i class=""></i><i class=""></i></span><span class="num">1/3</span></div>
+  
+  <div class="track" aria-hidden="true"><span class="tk sma" style="left:50.0%"></span><span class="tk x2" style="left:75.0%"></span><span class="px" style="left:48.8%"></span></div><div class="tlabels"><span style="left:50.0%">200W</span><span style="left:75.0%">2×</span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−3%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−52%</dd></div><div><dt>Monthly RSI</dt><dd>47</dd></div></dl>
+</article>
+<article class="coin z-buy">
+  <header><div class="id"><h3>HBAR</h3><span class="nm">Hedera</span></div><span class="zone buy">Buy</span></header>
+  <div class="score"><span class="lbl">Buy score</span><span class="dots buy" role="img" aria-label="score 1 of 3"><i class="on"></i><i class=""></i><i class=""></i></span><span class="num">1/3</span></div>
+  
+  <div class="track" aria-hidden="true"><span class="tk sma" style="left:50.0%"></span><span class="tk x2" style="left:75.0%"></span><span class="px" style="left:39.4%"></span></div><div class="tlabels"><span style="left:50.0%">200W</span><span style="left:75.0%">2×</span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−25%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−63%</dd></div><div><dt>Monthly RSI</dt><dd>45</dd></div></dl>
+</article>
+<article class="coin z-buy">
+  <header><div class="id"><h3>ETC</h3><span class="nm">Ethereum Classic</span></div><span class="zone buy">Buy</span></header>
+  <div class="score"><span class="lbl">Buy score</span><span class="dots buy" role="img" aria-label="score 1 of 3"><i class="on"></i><i class=""></i><i class=""></i></span><span class="num">1/3</span></div>
+  
+  <div class="track" aria-hidden="true"><span class="tk sma" style="left:50.0%"></span><span class="tk x2" style="left:75.0%"></span><span class="px" style="left:19.9%"></span></div><div class="tlabels"><span style="left:50.0%">200W</span><span style="left:75.0%">2×</span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−57%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−78%</dd></div><div><dt>Monthly RSI</dt><dd>39</dd></div></dl>
+</article>
+<article class="coin z-buy">
+  <header><div class="id"><h3>STX</h3><span class="nm">Stacks</span></div><span class="zone buy">Buy</span></header>
+  <div class="score"><span class="lbl">Buy score</span><span class="dots buy" role="img" aria-label="score 1 of 3"><i class="on"></i><i class=""></i><i class=""></i></span><span class="num">1/3</span></div>
+  
+  <div class="track" aria-hidden="true"><span class="tk sma" style="left:50.0%"></span><span class="tk x2" style="left:75.0%"></span><span class="px" style="left:18.4%"></span></div><div class="tlabels"><span style="left:50.0%">200W</span><span style="left:75.0%">2×</span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−58%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−79%</dd></div><div><dt>Monthly RSI</dt><dd>44</dd></div></dl>
+</article>
+<article class="coin z-neu">
+  <header><div class="id"><h3>XRP</h3><span class="nm">XRP</span></div><span class="zone neu">Neutral</span></header>
+  <div class="score"><span class="lbl">Score</span><span class="dots neu" role="img" aria-label="score 0 of 3"><i class=""></i><i class=""></i><i class=""></i></span><span class="num">0/3</span></div>
+  
+  <div class="track" aria-hidden="true"><span class="tk sma" style="left:50.0%"></span><span class="tk x2" style="left:75.0%"></span><span class="px" style="left:51.6%"></span></div><div class="tlabels"><span style="left:50.0%">200W</span><span style="left:75.0%">2×</span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="">+4%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−48%</dd></div><div><dt>Monthly RSI</dt><dd>46</dd></div></dl>
+</article>
+  </div>
+</section>
+
+<section id="indicator">
+  <h2>Surf Indicator</h2>
+  <p class="ind">A simple long-term TradingView indicator that marks the exact buy and sell zones on the chart.</p>
+  <ul class="indl">
+    <li><b class="b">Buy</b><span>Blue marks below the candles when price is at or below the 200-week SMA and monthly RSI is at or below 50.</span></li>
+    <li><b class="s">Sell</b><span>Orange marks above the candles when price is at or above 2× the 200-week SMA and monthly RSI is at or above 75.</span></li>
+    <li><b>Carry-over</b><span>If a month closes in a zone, the next month opens in it, and the signal holds for that whole month even if price leaves.</span></li>
+  </ul>
+  <a class="indbtn" href="https://www.tradingview.com/script/SrFP7F5T-Surf-Indicator/" rel="noopener" target="_blank">Open the Surf Indicator on TradingView</a>
+</section>
+
+<section id="score">
+  <h2>How the score works</h2>
+  <p class="sub">0 means outside the zone. The dot on each bar shows where price sits relative to the 200W SMA and 2× the SMA.</p>
+  <div class="legend">
+    <div class="lg"><h3 style="color:var(--buy)">Buy side</h3><ul>
+      <li><span class="dots buy" role="img" aria-label="score 1 of 3"><i class="on"></i><i class=""></i><i class=""></i></span><span><b>1</b> · in the buy zone</span></li>
+      <li><span class="dots buy" role="img" aria-label="score 2 of 3"><i class="on"></i><i class="on"></i><i class=""></i></span><span><b>2</b> · in the zone + a weekly bullish RSI divergence confirmed at the latest weekly close</span></li>
+      <li><span class="dots buy" role="img" aria-label="score 3 of 3"><i class="on"></i><i class="on"></i><i class="on"></i></span><span><b>3</b> · in the zone + a monthly bullish RSI divergence confirmed at the latest monthly close</span></li></ul></div>
+    <div class="lg"><h3 style="color:var(--sell)">Sell side</h3><ul>
+      <li><span class="dots sell" role="img" aria-label="score 1 of 3"><i class="on"></i><i class=""></i><i class=""></i></span><span><b>1</b> · in the sell zone</span></li>
+      <li><span class="dots sell" role="img" aria-label="score 2 of 3"><i class="on"></i><i class="on"></i><i class=""></i></span><span><b>2</b> · in the zone + a weekly bearish RSI divergence confirmed at the latest weekly close</span></li>
+      <li><span class="dots sell" role="img" aria-label="score 3 of 3"><i class="on"></i><i class="on"></i><i class="on"></i></span><span><b>3</b> · in the zone + a monthly bearish RSI divergence confirmed at the latest monthly close</span></li></ul></div>
+  </div>
+  <p class="note">How divergences are found: weekly divergences use the same logic as TradingView’s built-in RSI Divergence indicator (turning points in RSI(14) with 5 weeks on each side, compared with candle lows and highs), so a weekly signal appears 5 weeks after the turning point, just like on TradingView. Monthly divergences use a faster check on monthly closes that confirms 1 month after the turning point. A divergence only counts in the week or month it is confirmed.</p>
+</section>
+
+<section id="not-listed">
+  <h2>Checked, didn’t qualify</h2>
+  <p class="sub">A coin needs at least two buy cycles, a cycle that reached the sell zone or doubled, and to still be a liquid top-100 coin.</p>
+  <ul class="notq">
+<li><b>BNB</b><span>Only one full cycle so far (bought 2023, sold 2024–25). Needs at least two.</span></li>
+<li><b>SOL</b><span>One buy cycle so far (2026) and it never reached the sell zone.</span></li>
+<li><b>TRX</b><span>Only one full cycle so far (bought 2022, sold 2024–25). Needs at least two.</span></li>
+<li><b>ZEC</b><span>Only one full cycle so far (bought 2020–21, sold 2025–26). Needs at least two.</span></li>
+<li><b>ADA</b><span>One buy cycle so far (2022–23) and it never reached the sell zone.</span></li>
+<li><b>LINK</b><span>One buy cycle so far (2022–23) and it never reached the sell zone.</span></li>
+<li><b>AVAX</b><span>One buy cycle so far (2024–25) and it never reached the sell zone.</span></li>
+<li><b>DOT</b><span>One buy cycle so far (2024–25) and it never reached the sell zone.</span></li>
+<li><b>BCH</b><span>One buy cycle so far (2021–22) and it never reached the sell zone.</span></li>
+<li><b>NEAR</b><span>One buy cycle so far (2024–25) and it never reached the sell zone.</span></li>
+<li><b>DASH</b><span>Bought in 2 cycles but never reached a profitable sell zone, and each buy window came in lower than the last.</span></li>
+  </ul>
+  <p class="newer">Newer coins like HYPE, LEO, SUI, CC, TON, TAO, SHIB, ENA, ONDO, PUMP don’t have 200 weeks of history yet, so the system can’t be tested on them.</p>
+  <p class="callout">Not every coin respects the cycle. Don’t see your coin? It hasn’t earned a spot yet.</p>
+</section>
+
+</main>
+<div class="xwrap"><svg class="wave xwave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 34 C150 14 300 14 450 32 S750 52 900 32 S1100 14 1200 26" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M0 46 C200 30 350 30 520 44 S820 58 980 42 S1130 34 1200 40" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/></svg><div class="wrap">
+<section id="extras" class="two">
+  <div id="tools" class="xblk">
+    <h2 class="toolsh">Tools I use <span class="refnote">(referrals)</span></h2>
+    <div class="tools"><a class="tool" href="https://proinvite.kraken.com/9f1e/mo7cks8b" rel="sponsored noopener" target="_blank">Trade on Kraken</a><a class="tool" href="https://www.tradingview.com/pricing/?share_your_love=Crypto_Surf" rel="sponsored noopener" target="_blank">Charts on TradingView</a></div>
+  </div>
+  <span class="xsep" aria-hidden="true"></span>
+  <div id="tip" class="xblk">
+    <h2 class="toolsh">Enjoy Surf Zones?</h2>
+    <div class="tools"><a class="tool" href="https://www.mydoge.com/Surf" rel="noopener" target="_blank">Buy me a coffee with DOGE</a></div>
+  </div>
+</section>
+</div></div>
+
+<footer><div class="wrap">
+  <p class="nfa">Not financial advice.</p>
+  <p>Updated 16 Oct 2026</p>
+  <p>by <a href="https://x.com/_CryptoSurf" rel="noopener">@_CryptoSurf</a></p>
+</div></footer>
+</body></html>
