@@ -12,7 +12,7 @@ body{margin:0;background:linear-gradient(180deg,#0c1a30 0,var(--bg) 420px) var(-
 a{color:var(--buy);text-decoration:none}a:hover{text-decoration:underline}
 .wrap{max-width:1080px;margin:0 auto;padding:0 18px}
 .hero{position:relative;padding:44px 0 34px;overflow:hidden}
-.hero .wave{position:absolute;left:0;right:0;bottom:0;width:100%;height:48px;color:var(--buy);opacity:.28}
+.hero .wave{display:block;width:100%;height:48px;margin:6px 0 0;color:var(--buy);opacity:.28}   /* full-width, between subtitle and the zone boxes */
 .brand{display:flex;align-items:center;gap:10px;color:var(--mu);font-size:13px;letter-spacing:.04em}
 .brand a{color:var(--mu)}
 h1{font-size:40px;line-height:1.1;margin:14px 0 8px;letter-spacing:-.02em;font-weight:700}
@@ -78,7 +78,7 @@ footer{border-top:1px solid var(--line);margin-top:20px;padding:28px 0 40px;colo
 .fine{font-size:12px;color:var(--fa);line-height:1.5;margin-top:18px}.fine p{margin:0 0 6px}
 @media (min-width:720px){
   h1{font-size:54px}.hero{padding:64px 0 46px}
-  .rules{grid-template-columns:1fr 1fr}
+  .rules{grid-template-columns:1fr 1fr;margin-top:44px}
   .grid{grid-template-columns:repeat(2,1fr)}
   #extras.two{grid-template-columns:1fr auto 1fr;column-gap:40px;align-items:start}
   #extras.two .xsep{display:block;width:1px;background:var(--line);align-self:stretch}
@@ -92,11 +92,12 @@ footer{border-top:1px solid var(--line);margin-top:20px;padding:28px 0 40px;colo
 <div class="hero"><div class="wrap">
   <h1>Surf Zones</h1>
   <p class="subtitle">Crypto buy and sell zones for long-term position traders</p>
+</div><svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 34 C150 14 300 14 450 32 S750 52 900 32 S1100 14 1200 26" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M0 46 C200 30 350 30 520 44 S820 58 980 42 S1130 34 1200 40" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/></svg><div class="wrap">
   <div class="rules">
     <div class="rule"><b style="color:var(--buy)">Buy zone</b> · price at or below the 200-week SMA, with monthly RSI at or below 50.</div>
     <div class="rule s"><b style="color:var(--sell)">Sell zone</b> · price at or above 2× the 200-week SMA, with monthly RSI at or above 75.</div>
   </div>
-</div><svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 34 C150 14 300 14 450 32 S750 52 900 32 S1100 14 1200 26" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M0 46 C200 30 350 30 520 44 S820 58 980 42 S1130 34 1200 40" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/></svg></div>
+</div></div>
 
 <main class="wrap">
 <section id="changes"><h2 class="chh">Recent zone changes</h2><ul class="chg"><li><b>BTC</b> left <span class="cz buy">buy zone</span><span class="cm">Sep 2026</span></li><li><b>XRP</b> left <span class="cz buy">buy zone</span><span class="cm">Sep 2026</span></li><li><b>BTC</b> entered <span class="cz buy">buy zone</span><span class="cm">Jun 2026</span></li><li><b>XRP</b> entered <span class="cz buy">buy zone</span><span class="cm">Jun 2026</span></li></ul></section>
