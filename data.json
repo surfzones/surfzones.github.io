@@ -25,19 +25,117 @@
    "name": "Bitcoin",
    "cg_rank": 1,
    "zone": "Neutral",
-   "score": 0,
-   "buy_score": 0,
-   "sell_score": 0,
-   "divergences_now": {
-    "W_bull": null,
-    "W_bear": null,
-    "M_bull": null,
-    "M_bear": null
-   },
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "weekly_divergence_active": false,
-   "monthly_divergence_active": false,
+   "months_in_zone": 0,
+   "zone_since": null,
+   "last_buy_zone": "2026-08",
+   "last_sell_zone": "2025-02",
+   "distance": {
+    "target": "buy",
+    "threshold": 65826.76259827003,
+    "pct": 23.9,
+    "text": "24% above buy zone"
+   },
+   "action": null,
+   "zone_history": [
+    [
+     "2024-11",
+     "Sell"
+    ],
+    [
+     "2024-12",
+     "Sell"
+    ],
+    [
+     "2025-01",
+     "Sell"
+    ],
+    [
+     "2025-02",
+     "Sell"
+    ],
+    [
+     "2025-03",
+     "Neutral"
+    ],
+    [
+     "2025-04",
+     "Neutral"
+    ],
+    [
+     "2025-05",
+     "Neutral"
+    ],
+    [
+     "2025-06",
+     "Neutral"
+    ],
+    [
+     "2025-07",
+     "Neutral"
+    ],
+    [
+     "2025-08",
+     "Neutral"
+    ],
+    [
+     "2025-09",
+     "Neutral"
+    ],
+    [
+     "2025-10",
+     "Neutral"
+    ],
+    [
+     "2025-11",
+     "Neutral"
+    ],
+    [
+     "2025-12",
+     "Neutral"
+    ],
+    [
+     "2026-01",
+     "Neutral"
+    ],
+    [
+     "2026-02",
+     "Neutral"
+    ],
+    [
+     "2026-03",
+     "Neutral"
+    ],
+    [
+     "2026-04",
+     "Neutral"
+    ],
+    [
+     "2026-05",
+     "Neutral"
+    ],
+    [
+     "2026-06",
+     "Buy"
+    ],
+    [
+     "2026-07",
+     "Buy"
+    ],
+    [
+     "2026-08",
+     "Buy"
+    ],
+    [
+     "2026-09",
+     "Neutral"
+    ],
+    [
+     "2026-10",
+     "Neutral"
+    ]
+   ],
    "close": 81538.2951464407,
    "sma200w": 65826.76259827003,
    "close_vs_sma": 1.2386800129311475,
@@ -58,19 +156,112 @@
    "name": "Litecoin",
    "cg_rank": 24,
    "zone": "Buy",
-   "score": 1,
-   "buy_score": 1,
-   "sell_score": 0,
-   "divergences_now": {
-    "W_bull": null,
-    "W_bear": null,
-    "M_bull": null,
-    "M_bear": null
-   },
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "weekly_divergence_active": false,
-   "monthly_divergence_active": false,
+   "months_in_zone": 13,
+   "zone_since": "2025-10",
+   "last_buy_zone": "2026-10",
+   "last_sell_zone": "2021-05",
+   "distance": null,
+   "action": "Scale in",
+   "zone_history": [
+    [
+     "2024-11",
+     "Buy"
+    ],
+    [
+     "2024-12",
+     "Neutral"
+    ],
+    [
+     "2025-01",
+     "Neutral"
+    ],
+    [
+     "2025-02",
+     "Buy"
+    ],
+    [
+     "2025-03",
+     "Buy"
+    ],
+    [
+     "2025-04",
+     "Buy"
+    ],
+    [
+     "2025-05",
+     "Buy"
+    ],
+    [
+     "2025-06",
+     "Buy"
+    ],
+    [
+     "2025-07",
+     "Buy"
+    ],
+    [
+     "2025-08",
+     "Neutral"
+    ],
+    [
+     "2025-09",
+     "Neutral"
+    ],
+    [
+     "2025-10",
+     "Buy"
+    ],
+    [
+     "2025-11",
+     "Buy"
+    ],
+    [
+     "2025-12",
+     "Buy"
+    ],
+    [
+     "2026-01",
+     "Buy"
+    ],
+    [
+     "2026-02",
+     "Buy"
+    ],
+    [
+     "2026-03",
+     "Buy"
+    ],
+    [
+     "2026-04",
+     "Buy"
+    ],
+    [
+     "2026-05",
+     "Buy"
+    ],
+    [
+     "2026-06",
+     "Buy"
+    ],
+    [
+     "2026-07",
+     "Buy"
+    ],
+    [
+     "2026-08",
+     "Buy"
+    ],
+    [
+     "2026-09",
+     "Buy"
+    ],
+    [
+     "2026-10",
+     "Buy"
+    ]
+   ],
    "close": 59.6369461479656,
    "sma200w": 80.0325843172854,
    "close_vs_sma": 0.7451583209101151,
@@ -91,19 +282,112 @@
    "name": "Dogecoin",
    "cg_rank": 12,
    "zone": "Buy",
-   "score": 1,
-   "buy_score": 1,
-   "sell_score": 0,
-   "divergences_now": {
-    "W_bull": null,
-    "W_bear": null,
-    "M_bull": null,
-    "M_bear": null
-   },
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "weekly_divergence_active": false,
-   "monthly_divergence_active": false,
+   "months_in_zone": 13,
+   "zone_since": "2025-10",
+   "last_buy_zone": "2026-10",
+   "last_sell_zone": "2024-12",
+   "distance": null,
+   "action": "Scale in",
+   "zone_history": [
+    [
+     "2024-11",
+     "Sell"
+    ],
+    [
+     "2024-12",
+     "Sell"
+    ],
+    [
+     "2025-01",
+     "Neutral"
+    ],
+    [
+     "2025-02",
+     "Neutral"
+    ],
+    [
+     "2025-03",
+     "Buy"
+    ],
+    [
+     "2025-04",
+     "Buy"
+    ],
+    [
+     "2025-05",
+     "Neutral"
+    ],
+    [
+     "2025-06",
+     "Neutral"
+    ],
+    [
+     "2025-07",
+     "Neutral"
+    ],
+    [
+     "2025-08",
+     "Neutral"
+    ],
+    [
+     "2025-09",
+     "Neutral"
+    ],
+    [
+     "2025-10",
+     "Buy"
+    ],
+    [
+     "2025-11",
+     "Buy"
+    ],
+    [
+     "2025-12",
+     "Buy"
+    ],
+    [
+     "2026-01",
+     "Buy"
+    ],
+    [
+     "2026-02",
+     "Buy"
+    ],
+    [
+     "2026-03",
+     "Buy"
+    ],
+    [
+     "2026-04",
+     "Buy"
+    ],
+    [
+     "2026-05",
+     "Buy"
+    ],
+    [
+     "2026-06",
+     "Buy"
+    ],
+    [
+     "2026-07",
+     "Buy"
+    ],
+    [
+     "2026-08",
+     "Buy"
+    ],
+    [
+     "2026-09",
+     "Buy"
+    ],
+    [
+     "2026-10",
+     "Buy"
+    ]
+   ],
    "close": 0.0808057170063095,
    "sma200w": 0.13765979383216032,
    "close_vs_sma": 0.586995772380937,
@@ -124,19 +408,117 @@
    "name": "Monero",
    "cg_rank": 13,
    "zone": "Neutral",
-   "score": 0,
-   "buy_score": 0,
-   "sell_score": 0,
-   "divergences_now": {
-    "W_bull": null,
-    "W_bear": null,
-    "M_bull": null,
-    "M_bear": null
-   },
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "weekly_divergence_active": false,
-   "monthly_divergence_active": false,
+   "months_in_zone": 0,
+   "zone_since": null,
+   "last_buy_zone": "2024-11",
+   "last_sell_zone": "2026-01",
+   "distance": {
+    "target": "sell",
+    "threshold": 478.85836728375807,
+    "pct": 16.3,
+    "text": "Above sell price, RSI below 75"
+   },
+   "action": null,
+   "zone_history": [
+    [
+     "2024-11",
+     "Buy"
+    ],
+    [
+     "2024-12",
+     "Neutral"
+    ],
+    [
+     "2025-01",
+     "Neutral"
+    ],
+    [
+     "2025-02",
+     "Neutral"
+    ],
+    [
+     "2025-03",
+     "Neutral"
+    ],
+    [
+     "2025-04",
+     "Neutral"
+    ],
+    [
+     "2025-05",
+     "Sell"
+    ],
+    [
+     "2025-06",
+     "Neutral"
+    ],
+    [
+     "2025-07",
+     "Neutral"
+    ],
+    [
+     "2025-08",
+     "Neutral"
+    ],
+    [
+     "2025-09",
+     "Neutral"
+    ],
+    [
+     "2025-10",
+     "Neutral"
+    ],
+    [
+     "2025-11",
+     "Sell"
+    ],
+    [
+     "2025-12",
+     "Sell"
+    ],
+    [
+     "2026-01",
+     "Sell"
+    ],
+    [
+     "2026-02",
+     "Neutral"
+    ],
+    [
+     "2026-03",
+     "Neutral"
+    ],
+    [
+     "2026-04",
+     "Neutral"
+    ],
+    [
+     "2026-05",
+     "Neutral"
+    ],
+    [
+     "2026-06",
+     "Neutral"
+    ],
+    [
+     "2026-07",
+     "Neutral"
+    ],
+    [
+     "2026-08",
+     "Neutral"
+    ],
+    [
+     "2026-09",
+     "Neutral"
+    ],
+    [
+     "2026-10",
+     "Neutral"
+    ]
+   ],
    "close": 557.050793489419,
    "sma200w": 239.42918364187904,
    "close_vs_sma": 2.3265785106740187,
@@ -157,19 +539,112 @@
    "name": "Ethereum",
    "cg_rank": 2,
    "zone": "Buy",
-   "score": 1,
-   "buy_score": 1,
-   "sell_score": 0,
-   "divergences_now": {
-    "W_bull": null,
-    "W_bear": null,
-    "M_bull": null,
-    "M_bear": null
-   },
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "weekly_divergence_active": false,
-   "monthly_divergence_active": false,
+   "months_in_zone": 10,
+   "zone_since": "2026-01",
+   "last_buy_zone": "2026-10",
+   "last_sell_zone": "2021-12",
+   "distance": null,
+   "action": "Scale in",
+   "zone_history": [
+    [
+     "2024-11",
+     "Buy"
+    ],
+    [
+     "2024-12",
+     "Neutral"
+    ],
+    [
+     "2025-01",
+     "Neutral"
+    ],
+    [
+     "2025-02",
+     "Buy"
+    ],
+    [
+     "2025-03",
+     "Buy"
+    ],
+    [
+     "2025-04",
+     "Buy"
+    ],
+    [
+     "2025-05",
+     "Buy"
+    ],
+    [
+     "2025-06",
+     "Buy"
+    ],
+    [
+     "2025-07",
+     "Buy"
+    ],
+    [
+     "2025-08",
+     "Neutral"
+    ],
+    [
+     "2025-09",
+     "Neutral"
+    ],
+    [
+     "2025-10",
+     "Neutral"
+    ],
+    [
+     "2025-11",
+     "Neutral"
+    ],
+    [
+     "2025-12",
+     "Neutral"
+    ],
+    [
+     "2026-01",
+     "Buy"
+    ],
+    [
+     "2026-02",
+     "Buy"
+    ],
+    [
+     "2026-03",
+     "Buy"
+    ],
+    [
+     "2026-04",
+     "Buy"
+    ],
+    [
+     "2026-05",
+     "Buy"
+    ],
+    [
+     "2026-06",
+     "Buy"
+    ],
+    [
+     "2026-07",
+     "Buy"
+    ],
+    [
+     "2026-08",
+     "Buy"
+    ],
+    [
+     "2026-09",
+     "Buy"
+    ],
+    [
+     "2026-10",
+     "Buy"
+    ]
+   ],
    "close": 2420.08882370544,
    "sma200w": 2522.902965446333,
    "close_vs_sma": 0.9592476828680948,
@@ -190,19 +665,112 @@
    "name": "Stellar",
    "cg_rank": 20,
    "zone": "Buy",
-   "score": 1,
-   "buy_score": 1,
-   "sell_score": 0,
-   "divergences_now": {
-    "W_bull": null,
-    "W_bear": null,
-    "M_bull": null,
-    "M_bear": null
-   },
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "weekly_divergence_active": false,
-   "monthly_divergence_active": false,
+   "months_in_zone": 10,
+   "zone_since": "2026-01",
+   "last_buy_zone": "2026-10",
+   "last_sell_zone": "2024-12",
+   "distance": null,
+   "action": "Scale in",
+   "zone_history": [
+    [
+     "2024-11",
+     "Buy"
+    ],
+    [
+     "2024-12",
+     "Sell"
+    ],
+    [
+     "2025-01",
+     "Neutral"
+    ],
+    [
+     "2025-02",
+     "Neutral"
+    ],
+    [
+     "2025-03",
+     "Neutral"
+    ],
+    [
+     "2025-04",
+     "Neutral"
+    ],
+    [
+     "2025-05",
+     "Neutral"
+    ],
+    [
+     "2025-06",
+     "Neutral"
+    ],
+    [
+     "2025-07",
+     "Neutral"
+    ],
+    [
+     "2025-08",
+     "Neutral"
+    ],
+    [
+     "2025-09",
+     "Neutral"
+    ],
+    [
+     "2025-10",
+     "Buy"
+    ],
+    [
+     "2025-11",
+     "Neutral"
+    ],
+    [
+     "2025-12",
+     "Neutral"
+    ],
+    [
+     "2026-01",
+     "Buy"
+    ],
+    [
+     "2026-02",
+     "Buy"
+    ],
+    [
+     "2026-03",
+     "Buy"
+    ],
+    [
+     "2026-04",
+     "Buy"
+    ],
+    [
+     "2026-05",
+     "Buy"
+    ],
+    [
+     "2026-06",
+     "Buy"
+    ],
+    [
+     "2026-07",
+     "Buy"
+    ],
+    [
+     "2026-08",
+     "Buy"
+    ],
+    [
+     "2026-09",
+     "Buy"
+    ],
+    [
+     "2026-10",
+     "Buy"
+    ]
+   ],
    "close": 0.181158515047977,
    "sma200w": 0.18710005104885116,
    "close_vs_sma": 0.9682440706586294,
@@ -223,19 +791,112 @@
    "name": "Hedera",
    "cg_rank": 32,
    "zone": "Buy",
-   "score": 1,
-   "buy_score": 1,
-   "sell_score": 0,
-   "divergences_now": {
-    "W_bull": null,
-    "W_bear": null,
-    "M_bull": null,
-    "M_bear": null
-   },
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "weekly_divergence_active": false,
-   "monthly_divergence_active": false,
+   "months_in_zone": 11,
+   "zone_since": "2025-12",
+   "last_buy_zone": "2026-10",
+   "last_sell_zone": "2025-02",
+   "distance": null,
+   "action": "Scale in",
+   "zone_history": [
+    [
+     "2024-11",
+     "Buy"
+    ],
+    [
+     "2024-12",
+     "Sell"
+    ],
+    [
+     "2025-01",
+     "Sell"
+    ],
+    [
+     "2025-02",
+     "Sell"
+    ],
+    [
+     "2025-03",
+     "Neutral"
+    ],
+    [
+     "2025-04",
+     "Buy"
+    ],
+    [
+     "2025-05",
+     "Neutral"
+    ],
+    [
+     "2025-06",
+     "Buy"
+    ],
+    [
+     "2025-07",
+     "Neutral"
+    ],
+    [
+     "2025-08",
+     "Neutral"
+    ],
+    [
+     "2025-09",
+     "Neutral"
+    ],
+    [
+     "2025-10",
+     "Buy"
+    ],
+    [
+     "2025-11",
+     "Neutral"
+    ],
+    [
+     "2025-12",
+     "Buy"
+    ],
+    [
+     "2026-01",
+     "Buy"
+    ],
+    [
+     "2026-02",
+     "Buy"
+    ],
+    [
+     "2026-03",
+     "Buy"
+    ],
+    [
+     "2026-04",
+     "Buy"
+    ],
+    [
+     "2026-05",
+     "Buy"
+    ],
+    [
+     "2026-06",
+     "Buy"
+    ],
+    [
+     "2026-07",
+     "Buy"
+    ],
+    [
+     "2026-08",
+     "Buy"
+    ],
+    [
+     "2026-09",
+     "Buy"
+    ],
+    [
+     "2026-10",
+     "Buy"
+    ]
+   ],
    "close": 0.0834259130985797,
    "sma200w": 0.11189637550907641,
    "close_vs_sma": 0.7455640338574921,
@@ -256,19 +917,112 @@
    "name": "Ethereum Classic",
    "cg_rank": 70,
    "zone": "Buy",
-   "score": 1,
-   "buy_score": 1,
-   "sell_score": 0,
-   "divergences_now": {
-    "W_bull": null,
-    "W_bear": null,
-    "M_bull": null,
-    "M_bear": null
-   },
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "weekly_divergence_active": false,
-   "monthly_divergence_active": false,
+   "months_in_zone": 29,
+   "zone_since": "2024-06",
+   "last_buy_zone": "2026-10",
+   "last_sell_zone": "2021-09",
+   "distance": null,
+   "action": "Scale in",
+   "zone_history": [
+    [
+     "2024-11",
+     "Buy"
+    ],
+    [
+     "2024-12",
+     "Buy"
+    ],
+    [
+     "2025-01",
+     "Buy"
+    ],
+    [
+     "2025-02",
+     "Buy"
+    ],
+    [
+     "2025-03",
+     "Buy"
+    ],
+    [
+     "2025-04",
+     "Buy"
+    ],
+    [
+     "2025-05",
+     "Buy"
+    ],
+    [
+     "2025-06",
+     "Buy"
+    ],
+    [
+     "2025-07",
+     "Buy"
+    ],
+    [
+     "2025-08",
+     "Buy"
+    ],
+    [
+     "2025-09",
+     "Buy"
+    ],
+    [
+     "2025-10",
+     "Buy"
+    ],
+    [
+     "2025-11",
+     "Buy"
+    ],
+    [
+     "2025-12",
+     "Buy"
+    ],
+    [
+     "2026-01",
+     "Buy"
+    ],
+    [
+     "2026-02",
+     "Buy"
+    ],
+    [
+     "2026-03",
+     "Buy"
+    ],
+    [
+     "2026-04",
+     "Buy"
+    ],
+    [
+     "2026-05",
+     "Buy"
+    ],
+    [
+     "2026-06",
+     "Buy"
+    ],
+    [
+     "2026-07",
+     "Buy"
+    ],
+    [
+     "2026-08",
+     "Buy"
+    ],
+    [
+     "2026-09",
+     "Buy"
+    ],
+    [
+     "2026-10",
+     "Buy"
+    ]
+   ],
    "close": 7.94808335376744,
    "sma200w": 18.335363365367456,
    "close_vs_sma": 0.4334838200578063,
@@ -289,19 +1043,112 @@
    "name": "Stacks",
    "cg_rank": 92,
    "zone": "Buy",
-   "score": 1,
-   "buy_score": 1,
-   "sell_score": 0,
-   "divergences_now": {
-    "W_bull": null,
-    "W_bear": null,
-    "M_bull": null,
-    "M_bear": null
-   },
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "weekly_divergence_active": false,
-   "monthly_divergence_active": false,
+   "months_in_zone": 22,
+   "zone_since": "2025-01",
+   "last_buy_zone": "2026-10",
+   "last_sell_zone": "2024-04",
+   "distance": null,
+   "action": "Scale in",
+   "zone_history": [
+    [
+     "2024-11",
+     "Neutral"
+    ],
+    [
+     "2024-12",
+     "Neutral"
+    ],
+    [
+     "2025-01",
+     "Buy"
+    ],
+    [
+     "2025-02",
+     "Buy"
+    ],
+    [
+     "2025-03",
+     "Buy"
+    ],
+    [
+     "2025-04",
+     "Buy"
+    ],
+    [
+     "2025-05",
+     "Buy"
+    ],
+    [
+     "2025-06",
+     "Buy"
+    ],
+    [
+     "2025-07",
+     "Buy"
+    ],
+    [
+     "2025-08",
+     "Buy"
+    ],
+    [
+     "2025-09",
+     "Buy"
+    ],
+    [
+     "2025-10",
+     "Buy"
+    ],
+    [
+     "2025-11",
+     "Buy"
+    ],
+    [
+     "2025-12",
+     "Buy"
+    ],
+    [
+     "2026-01",
+     "Buy"
+    ],
+    [
+     "2026-02",
+     "Buy"
+    ],
+    [
+     "2026-03",
+     "Buy"
+    ],
+    [
+     "2026-04",
+     "Buy"
+    ],
+    [
+     "2026-05",
+     "Buy"
+    ],
+    [
+     "2026-06",
+     "Buy"
+    ],
+    [
+     "2026-07",
+     "Buy"
+    ],
+    [
+     "2026-08",
+     "Buy"
+    ],
+    [
+     "2026-09",
+     "Buy"
+    ],
+    [
+     "2026-10",
+     "Buy"
+    ]
+   ],
    "close": 0.389573975111328,
    "sma200w": 0.9345152333172796,
    "close_vs_sma": 0.4168727926760963,
@@ -322,19 +1169,117 @@
    "name": "XRP",
    "cg_rank": 5,
    "zone": "Neutral",
-   "score": 0,
-   "buy_score": 0,
-   "sell_score": 0,
-   "divergences_now": {
-    "W_bull": null,
-    "W_bear": null,
-    "M_bull": null,
-    "M_bear": null
-   },
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "weekly_divergence_active": false,
-   "monthly_divergence_active": false,
+   "months_in_zone": 0,
+   "zone_since": null,
+   "last_buy_zone": "2026-08",
+   "last_sell_zone": "2025-08",
+   "distance": {
+    "target": "buy",
+    "threshold": 1.2538852438843389,
+    "pct": 4.4,
+    "text": "4% above buy zone"
+   },
+   "action": null,
+   "zone_history": [
+    [
+     "2024-11",
+     "Buy"
+    ],
+    [
+     "2024-12",
+     "Sell"
+    ],
+    [
+     "2025-01",
+     "Sell"
+    ],
+    [
+     "2025-02",
+     "Sell"
+    ],
+    [
+     "2025-03",
+     "Neutral"
+    ],
+    [
+     "2025-04",
+     "Neutral"
+    ],
+    [
+     "2025-05",
+     "Neutral"
+    ],
+    [
+     "2025-06",
+     "Neutral"
+    ],
+    [
+     "2025-07",
+     "Sell"
+    ],
+    [
+     "2025-08",
+     "Sell"
+    ],
+    [
+     "2025-09",
+     "Neutral"
+    ],
+    [
+     "2025-10",
+     "Neutral"
+    ],
+    [
+     "2025-11",
+     "Neutral"
+    ],
+    [
+     "2025-12",
+     "Neutral"
+    ],
+    [
+     "2026-01",
+     "Neutral"
+    ],
+    [
+     "2026-02",
+     "Neutral"
+    ],
+    [
+     "2026-03",
+     "Neutral"
+    ],
+    [
+     "2026-04",
+     "Neutral"
+    ],
+    [
+     "2026-05",
+     "Neutral"
+    ],
+    [
+     "2026-06",
+     "Buy"
+    ],
+    [
+     "2026-07",
+     "Buy"
+    ],
+    [
+     "2026-08",
+     "Buy"
+    ],
+    [
+     "2026-09",
+     "Neutral"
+    ],
+    [
+     "2026-10",
+     "Neutral"
+    ]
+   ],
    "close": 1.3095836334904,
    "sma200w": 1.2538852438843389,
    "close_vs_sma": 1.0444206436575618,
@@ -419,6 +1364,37 @@
    "scan_reason": "bought in 2 cycles, never reached a profitable sell zone after buying (best cycle 1.40x); each buy window lower than the last (lower lows)"
   }
  ],
+ "recent_changes": [
+  {
+   "ticker": "BTC",
+   "month": "2026-09",
+   "event": "left",
+   "zone": "buy"
+  },
+  {
+   "ticker": "XRP",
+   "month": "2026-09",
+   "event": "left",
+   "zone": "buy"
+  },
+  {
+   "ticker": "BTC",
+   "month": "2026-06",
+   "event": "entered",
+   "zone": "buy"
+  },
+  {
+   "ticker": "XRP",
+   "month": "2026-06",
+   "event": "entered",
+   "zone": "buy"
+  }
+ ],
+ "recent_changes_window": {
+  "first_month": "2026-05",
+  "last_month": "2026-10",
+  "max_items": 5
+ },
  "newer_coins": [
   {
    "ticker": "HYPE",
@@ -463,9 +1439,9 @@
  ],
  "sources": {
   "scan": "surflist/results.csv (surflist.py)",
-  "scores": "site/scores.py → divergence/hybrid.py (weekly: TradingView built-in RSI Divergence replica, RSI pivots L5/R5; monthly: divergence/v3.py close pivots L5/R1)",
+  "zones": "site/zones.py (surflist.py loader)",
   "backtest": "surf-backtest/v4/results.md",
   "rules": "stc/text.txt"
  },
- "generated": "2026-10-17T18:16+02:00"
+ "generated": "2026-10-17T19:11+02:00"
 }
