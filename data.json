@@ -27,17 +27,8 @@
    "zone": "Neutral",
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "months_in_zone": 0,
-   "zone_since": null,
    "last_buy_zone": "2026-08",
    "last_sell_zone": "2025-02",
-   "distance": {
-    "target": "buy",
-    "threshold": 65826.76259827003,
-    "pct": 23.9,
-    "text": "24% above buy zone"
-   },
-   "action": null,
    "zone_history": [
     [
      "2024-11",
@@ -158,12 +149,8 @@
    "zone": "Buy",
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "months_in_zone": 13,
-   "zone_since": "2025-10",
    "last_buy_zone": "2026-10",
    "last_sell_zone": "2021-05",
-   "distance": null,
-   "action": "Scale in",
    "zone_history": [
     [
      "2024-11",
@@ -284,12 +271,8 @@
    "zone": "Buy",
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "months_in_zone": 13,
-   "zone_since": "2025-10",
    "last_buy_zone": "2026-10",
    "last_sell_zone": "2024-12",
-   "distance": null,
-   "action": "Scale in",
    "zone_history": [
     [
      "2024-11",
@@ -410,17 +393,8 @@
    "zone": "Neutral",
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "months_in_zone": 0,
-   "zone_since": null,
    "last_buy_zone": "2024-11",
    "last_sell_zone": "2026-01",
-   "distance": {
-    "target": "sell",
-    "threshold": 478.85836728375807,
-    "pct": 16.3,
-    "text": "Above sell price, RSI below 75"
-   },
-   "action": null,
    "zone_history": [
     [
      "2024-11",
@@ -541,12 +515,8 @@
    "zone": "Buy",
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "months_in_zone": 10,
-   "zone_since": "2026-01",
    "last_buy_zone": "2026-10",
    "last_sell_zone": "2021-12",
-   "distance": null,
-   "action": "Scale in",
    "zone_history": [
     [
      "2024-11",
@@ -667,12 +637,8 @@
    "zone": "Buy",
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "months_in_zone": 10,
-   "zone_since": "2026-01",
    "last_buy_zone": "2026-10",
    "last_sell_zone": "2024-12",
-   "distance": null,
-   "action": "Scale in",
    "zone_history": [
     [
      "2024-11",
@@ -793,12 +759,8 @@
    "zone": "Buy",
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "months_in_zone": 11,
-   "zone_since": "2025-12",
    "last_buy_zone": "2026-10",
    "last_sell_zone": "2025-02",
-   "distance": null,
-   "action": "Scale in",
    "zone_history": [
     [
      "2024-11",
@@ -919,12 +881,8 @@
    "zone": "Buy",
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "months_in_zone": 29,
-   "zone_since": "2024-06",
    "last_buy_zone": "2026-10",
    "last_sell_zone": "2021-09",
-   "distance": null,
-   "action": "Scale in",
    "zone_history": [
     [
      "2024-11",
@@ -1045,12 +1003,8 @@
    "zone": "Buy",
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "months_in_zone": 22,
-   "zone_since": "2025-01",
    "last_buy_zone": "2026-10",
    "last_sell_zone": "2024-04",
-   "distance": null,
-   "action": "Scale in",
    "zone_history": [
     [
      "2024-11",
@@ -1171,17 +1125,8 @@
    "zone": "Neutral",
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
-   "months_in_zone": 0,
-   "zone_since": null,
    "last_buy_zone": "2026-08",
    "last_sell_zone": "2025-08",
-   "distance": {
-    "target": "buy",
-    "threshold": 1.2538852438843389,
-    "pct": 4.4,
-    "text": "4% above buy zone"
-   },
-   "action": null,
    "zone_history": [
     [
      "2024-11",
@@ -1443,5 +1388,5 @@
   "backtest": "surf-backtest/v4/results.md",
   "rules": "stc/text.txt"
  },
- "generated": "2026-10-17T19:11+02:00"
+ "generated": "2026-10-17T19:51+02:00"
 }
