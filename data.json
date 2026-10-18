@@ -25,6 +25,7 @@
    "name": "Bitcoin",
    "cg_rank": 1,
    "zone": "Neutral",
+   "strong": false,
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2026-08",
@@ -147,6 +148,7 @@
    "name": "Litecoin",
    "cg_rank": 24,
    "zone": "Buy",
+   "strong": false,
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2026-10",
@@ -269,6 +271,7 @@
    "name": "Dogecoin",
    "cg_rank": 12,
    "zone": "Buy",
+   "strong": false,
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2026-10",
@@ -391,6 +394,7 @@
    "name": "Monero",
    "cg_rank": 13,
    "zone": "Neutral",
+   "strong": false,
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2024-11",
@@ -513,6 +517,7 @@
    "name": "Ethereum",
    "cg_rank": 2,
    "zone": "Buy",
+   "strong": false,
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2026-10",
@@ -635,6 +640,7 @@
    "name": "Stellar",
    "cg_rank": 20,
    "zone": "Buy",
+   "strong": false,
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2026-10",
@@ -757,6 +763,7 @@
    "name": "Hedera",
    "cg_rank": 32,
    "zone": "Buy",
+   "strong": false,
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2026-10",
@@ -879,6 +886,7 @@
    "name": "Ethereum Classic",
    "cg_rank": 70,
    "zone": "Buy",
+   "strong": false,
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2026-10",
@@ -1001,6 +1009,7 @@
    "name": "Stacks",
    "cg_rank": 92,
    "zone": "Buy",
+   "strong": false,
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2026-10",
@@ -1123,6 +1132,7 @@
    "name": "XRP",
    "cg_rank": 5,
    "zone": "Neutral",
+   "strong": false,
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2026-08",
@@ -1317,6 +1327,12 @@
    "zone": "buy"
   },
   {
+   "ticker": "DOGE",
+   "month": "2026-09",
+   "event": "turned",
+   "zone": "strong buy"
+  },
+  {
    "ticker": "XRP",
    "month": "2026-09",
    "event": "left",
@@ -1324,15 +1340,15 @@
   },
   {
    "ticker": "BTC",
-   "month": "2026-06",
-   "event": "entered",
-   "zone": "buy"
+   "month": "2026-08",
+   "event": "turned",
+   "zone": "strong buy"
   },
   {
-   "ticker": "XRP",
-   "month": "2026-06",
-   "event": "entered",
-   "zone": "buy"
+   "ticker": "HBAR",
+   "month": "2026-08",
+   "event": "turned",
+   "zone": "strong buy"
   }
  ],
  "recent_changes_window": {
@@ -1388,5 +1404,5 @@
   "backtest": "surf-backtest/v4/results.md",
   "rules": "stc/text.txt"
  },
- "generated": "2026-10-18T03:13+02:00"
+ "generated": "2026-10-18T15:46+02:00"
 }

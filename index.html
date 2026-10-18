@@ -24,6 +24,7 @@ h1{font-size:40px;line-height:1.1;margin:14px 0 8px;letter-spacing:-.02em;font-w
 .rules{display:grid;gap:10px;margin:34px 0 0}
 .rule{border:1px solid var(--line);border-left:3px solid var(--buy);background:var(--bg2);border-radius:10px;padding:10px 14px;font-size:15px}
 .rule.s{border-left-color:var(--sell)}.rule b{font-weight:600}
+.snote{margin:10px 0 0 2px;font-size:12.5px;line-height:1.5;color:var(--fa)}.snote .b{color:rgba(61,155,255,.85)}.snote .s{color:rgba(255,154,31,.85)}   /* muted note under the zone boxes */
 section{padding:30px 0}
 h2{font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
 .sub{color:var(--mu);margin:0 0 18px;font-size:15px}
@@ -35,6 +36,11 @@ h2{font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
 .coin header{display:flex;justify-content:space-between;align-items:center}
 .coin .id{display:flex;align-items:baseline;gap:8px}.coin h3{margin:0;font-size:20px;letter-spacing:.01em}.nm{color:var(--mu);font-size:14px}
 .zone{font-size:13px;font-weight:600;padding:3px 10px;border-radius:999px}
+.coin.z-buy.strong{border-color:rgba(61,155,255,.95);box-shadow:inset 3px 0 0 var(--buy),0 0 0 1px rgba(61,155,255,.18),0 8px 26px -12px rgba(61,155,255,.65)}
+.coin.z-sell.strong{border-color:rgba(255,154,31,.95);box-shadow:inset 3px 0 0 var(--sell),0 0 0 1px rgba(255,154,31,.18),0 8px 26px -12px rgba(255,154,31,.65)}
+.zone.strong{font-size:13.5px;font-weight:800;padding:3px 12px;letter-spacing:.01em}
+.zone.buy.strong{background:linear-gradient(180deg,#6cb4ff,var(--buy));box-shadow:0 0 0 1px rgba(255,255,255,.22) inset,0 0 14px rgba(61,155,255,.6)}
+.zone.sell.strong{background:linear-gradient(180deg,#ffb54f,var(--sell));box-shadow:0 0 0 1px rgba(255,255,255,.25) inset,0 0 14px rgba(255,154,31,.6)}
 .zone.buy{background:var(--buy);color:#06101f;font-weight:700}.zone.sell{background:var(--sell);color:#1a0f00;font-weight:700}.zone.neu{background:rgba(150,168,192,.14);color:#b3c0d1;font-weight:600;box-shadow:inset 0 0 0 1px rgba(150,168,192,.32)}
 .track{position:relative;height:6px;margin:16px 2px 0;border-radius:3px;background:linear-gradient(90deg,rgba(61,155,255,.35),rgba(61,155,255,.08) 50%,rgba(255,154,31,.08) 75%,rgba(255,154,31,.35))}
 .tk{position:absolute;top:-4px;width:2px;height:14px;border-radius:1px;transform:translateX(-1px)}.tk.sma{background:var(--buy)}.tk.x2{background:var(--sell)}
@@ -48,7 +54,7 @@ h2{font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
 #changes{padding:30px 0 0}.chh{font-size:15px;color:var(--mu);font-weight:600;margin:0 0 10px;letter-spacing:.01em}
 .chg{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .chg li{display:inline-flex;align-items:baseline;gap:6px;background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13.5px;color:#c4d3e6}
-.chg b{color:var(--tx);font-weight:600}.cz.buy{color:var(--buy)}.cz.sell{color:var(--sell)}.cm{color:var(--fa);font-size:12.5px}
+.chg b{color:var(--tx);font-weight:600}.cz.buy{color:var(--buy)}.cz.sell{color:var(--sell)}.cz.strong{font-weight:700}.cm{color:var(--fa);font-size:12.5px}
 .notq{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
 .notq li{display:grid;grid-template-columns:62px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14.5px}
 .notq b{font-weight:600}.notq span{color:#b9c7d9}
@@ -97,10 +103,11 @@ footer{border-top:1px solid var(--line);margin-top:20px;padding:28px 0 40px;colo
     <div class="rule"><b style="color:var(--buy)">Buy zone</b> · price at or below the 200-week SMA, with monthly RSI at or below 50.</div>
     <div class="rule s"><b style="color:var(--sell)">Sell zone</b> · price at or above 2× the 200-week SMA, with monthly RSI at or above 75.</div>
   </div>
+  <p class="snote"><span class="b">Strong Buy</span> / <span class="s">Strong Sell</span>: in the zone plus a fresh weekly or monthly divergence.</p>
 </div></div>
 
 <main class="wrap">
-<section id="changes"><h2 class="chh">Recent zone changes</h2><ul class="chg"><li><b>BTC</b> left <span class="cz buy">buy zone</span><span class="cm">Sep 2026</span></li><li><b>XRP</b> left <span class="cz buy">buy zone</span><span class="cm">Sep 2026</span></li><li><b>BTC</b> entered <span class="cz buy">buy zone</span><span class="cm">Jun 2026</span></li><li><b>XRP</b> entered <span class="cz buy">buy zone</span><span class="cm">Jun 2026</span></li></ul></section>
+<section id="changes"><h2 class="chh">Recent zone changes</h2><ul class="chg"><li><b>BTC</b> left <span class="cz buy">buy zone</span><span class="cm">Sep 2026</span></li><li><b>DOGE</b> turned <span class="cz buy strong">Strong Buy</span><span class="cm">Sep 2026</span></li><li><b>XRP</b> left <span class="cz buy">buy zone</span><span class="cm">Sep 2026</span></li><li><b>BTC</b> turned <span class="cz buy strong">Strong Buy</span><span class="cm">Aug 2026</span></li><li><b>HBAR</b> turned <span class="cz buy strong">Strong Buy</span><span class="cm">Aug 2026</span></li></ul></section>
 <section id="list" style="padding-top:22px">
   <div class="grid">
 <article class="coin z-neu">
