@@ -9,7 +9,6 @@
   "tagline_alt": "You surf a few good waves, not every wave.",
   "x_handle": "@_CryptoSurf",
   "x_url": "https://x.com/_CryptoSurf",
-  "indicator_url": "https://www.tradingview.com/script/SrFP7F5T-Surf-Indicator/",
   "contact": "cryptosurf@mail.grokbot.com"
  },
  "updated": "October 2026",
@@ -29,7 +28,7 @@
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2026-08",
-   "last_sell_zone": "2025-02",
+   "last_sell_zone": "2025-11",
    "zone_history": [
     [
      "2024-11",
@@ -49,7 +48,7 @@
     ],
     [
      "2025-03",
-     "Neutral"
+     "Sell"
     ],
     [
      "2025-04",
@@ -61,19 +60,19 @@
     ],
     [
      "2025-06",
-     "Neutral"
+     "Sell"
     ],
     [
      "2025-07",
-     "Neutral"
+     "Sell"
     ],
     [
      "2025-08",
-     "Neutral"
+     "Sell"
     ],
     [
      "2025-09",
-     "Neutral"
+     "Sell"
     ],
     [
      "2025-10",
@@ -81,7 +80,7 @@
     ],
     [
      "2025-11",
-     "Neutral"
+     "Sell"
     ],
     [
      "2025-12",
@@ -155,7 +154,7 @@
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2026-10",
-   "last_sell_zone": "2021-05",
+   "last_sell_zone": "2021-06",
    "zone_history": [
     [
      "2024-11",
@@ -407,7 +406,7 @@
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2024-11",
-   "last_sell_zone": "2026-01",
+   "last_sell_zone": "2026-02",
    "zone_history": [
     [
      "2024-11",
@@ -471,7 +470,7 @@
     ],
     [
      "2026-02",
-     "Neutral"
+     "Sell"
     ],
     [
      "2026-03",
@@ -533,7 +532,7 @@
    "latest_week": "2026-10-11",
    "latest_month": "2026-09",
    "last_buy_zone": "2026-10",
-   "last_sell_zone": "2021-12",
+   "last_sell_zone": "2022-01",
    "zone_history": [
     [
      "2024-11",
@@ -1183,11 +1182,11 @@
     ],
     [
      "2025-03",
-     "Neutral"
+     "Sell"
     ],
     [
      "2025-04",
-     "Neutral"
+     "Sell"
     ],
     [
      "2025-05",
@@ -1304,7 +1303,7 @@
    "ticker": "ZEC",
    "name": "Zcash",
    "reason": "Only one full cycle so far (bought 2020–21, sold 2025–26). Needs at least two.",
-   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2020-09..2021-07), sells 7 (2025-10..2026-10), 8.70x)"
+   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2020-09..2021-07), sells 9 (2025-10..2026-10), 7.01x)"
   },
   {
    "ticker": "ADA",
@@ -1351,40 +1350,46 @@
  ],
  "recent_changes": [
   {
+   "ticker": "DOGE",
+   "month": "2026-09",
+   "event": "left",
+   "zone": "strong buy",
+   "date": "2026-09-21"
+  },
+  {
    "ticker": "BTC",
    "month": "2026-09",
    "event": "left",
-   "zone": "buy"
-  },
-  {
-   "ticker": "DOGE",
-   "month": "2026-09",
-   "event": "turned",
-   "zone": "strong buy"
+   "zone": "buy",
+   "date": "2026-09-01"
   },
   {
    "ticker": "XRP",
    "month": "2026-09",
    "event": "left",
-   "zone": "buy"
-  },
-  {
-   "ticker": "BTC",
-   "month": "2026-08",
-   "event": "turned",
-   "zone": "strong buy"
+   "zone": "buy",
+   "date": "2026-09-01"
   },
   {
    "ticker": "HBAR",
    "month": "2026-08",
-   "event": "turned",
-   "zone": "strong buy"
+   "event": "left",
+   "zone": "strong buy",
+   "date": "2026-08-10"
+  },
+  {
+   "ticker": "ETC",
+   "month": "2026-07",
+   "event": "left",
+   "zone": "strong buy",
+   "date": "2026-07-20"
   }
  ],
  "recent_changes_window": {
   "first_month": "2026-05",
   "last_month": "2026-10",
-  "max_items": 5
+  "max_items": 5,
+  "one_per_coin": true
  },
  "newer_coins": [
   {
@@ -1434,5 +1439,5 @@
   "backtest": "surf-backtest/v4/results.md",
   "rules": "stc/text.txt"
  },
- "generated": "2026-10-18T16:17+02:00"
+ "generated": "2026-10-18T21:57+02:00"
 }
