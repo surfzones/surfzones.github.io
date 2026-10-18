@@ -14,7 +14,7 @@
  },
  "updated": "October 2026",
  "month": "2026-10",
- "prices_as_of": "2026-10-16",
+ "prices_as_of": "2026-10-17",
  "latest_week": "2026-10-11",
  "latest_month": "2026-09",
  "scanned": 69,
@@ -127,19 +127,19 @@
      "Neutral"
     ]
    ],
-   "close": 81538.2951464407,
+   "close": 81268.9431190474,
    "sma200w": 65826.76259827003,
-   "close_vs_sma": 1.2386800129311475,
-   "pct_vs_sma": 23.9,
-   "pct_vs_2x_sma": -38.1,
-   "rsi_month": 52.2,
+   "close_vs_sma": 1.2345881813301145,
+   "pct_vs_sma": 23.5,
+   "pct_vs_2x_sma": -38.3,
+   "rsi_month": 52.1,
    "cycles_tested": 4,
    "completed_cycles": 3,
    "profitable_completed_cycles": 3,
    "record": "strong",
    "data_start": "2010-07-18",
    "signals_from": "2014-06",
-   "data_end": "2026-10-16",
+   "data_end": "2026-10-17",
    "month": "2026-10"
   },
   {
@@ -249,19 +249,19 @@
      "Buy"
     ]
    ],
-   "close": 59.6369461479656,
+   "close": 58.6976142801617,
    "sma200w": 80.0325843172854,
-   "close_vs_sma": 0.7451583209101151,
-   "pct_vs_sma": -25.5,
-   "pct_vs_2x_sma": -62.7,
-   "rsi_month": 44.8,
+   "close_vs_sma": 0.733421453035401,
+   "pct_vs_sma": -26.7,
+   "pct_vs_2x_sma": -63.3,
+   "rsi_month": 44.5,
    "cycles_tested": 3,
    "completed_cycles": 2,
    "profitable_completed_cycles": 2,
    "record": "strong",
    "data_start": "2013-04-01",
    "signals_from": "2017-02",
-   "data_end": "2026-10-16",
+   "data_end": "2026-10-17",
    "month": "2026-10"
   },
   {
@@ -371,19 +371,19 @@
      "Buy"
     ]
    ],
-   "close": 0.0808057170063095,
+   "close": 0.0790985381054227,
    "sma200w": 0.13765979383216032,
-   "close_vs_sma": 0.586995772380937,
-   "pct_vs_sma": -41.3,
-   "pct_vs_2x_sma": -70.7,
-   "rsi_month": 42.8,
+   "close_vs_sma": 0.5745943379943051,
+   "pct_vs_sma": -42.5,
+   "pct_vs_2x_sma": -71.3,
+   "rsi_month": 42.5,
    "cycles_tested": 3,
    "completed_cycles": 2,
    "profitable_completed_cycles": 2,
    "record": "strong",
    "data_start": "2014-01-23",
    "signals_from": "2017-12",
-   "data_end": "2026-10-16",
+   "data_end": "2026-10-17",
    "month": "2026-10"
   },
   {
@@ -493,19 +493,19 @@
      "Neutral"
     ]
    ],
-   "close": 557.050793489419,
+   "close": 568.668633314749,
    "sma200w": 239.42918364187904,
-   "close_vs_sma": 2.3265785106740187,
-   "pct_vs_sma": 132.7,
-   "pct_vs_2x_sma": 16.3,
-   "rsi_month": 69.6,
+   "close_vs_sma": 2.3751015839628082,
+   "pct_vs_sma": 137.5,
+   "pct_vs_2x_sma": 18.8,
+   "rsi_month": 70.2,
    "cycles_tested": 2,
    "completed_cycles": 2,
    "profitable_completed_cycles": 2,
    "record": "strong",
    "data_start": "2014-05-20",
    "signals_from": "2018-04",
-   "data_end": "2026-10-16",
+   "data_end": "2026-10-17",
    "month": "2026-10"
   },
   {
@@ -615,19 +615,19 @@
      "Buy"
     ]
    ],
-   "close": 2420.08882370544,
+   "close": 2394.9388993571,
    "sma200w": 2522.902965446333,
-   "close_vs_sma": 0.9592476828680948,
-   "pct_vs_sma": -4.1,
-   "pct_vs_2x_sma": -52.0,
-   "rsi_month": 48.8,
+   "close_vs_sma": 0.9492790377427004,
+   "pct_vs_sma": -5.1,
+   "pct_vs_2x_sma": -52.5,
+   "rsi_month": 48.6,
    "cycles_tested": 2,
    "completed_cycles": 1,
    "profitable_completed_cycles": 1,
    "record": "early",
    "data_start": "2015-08-08",
    "signals_from": "2019-07",
-   "data_end": "2026-10-16",
+   "data_end": "2026-10-17",
    "month": "2026-10"
   },
   {
@@ -737,19 +737,19 @@
      "Buy"
     ]
    ],
-   "close": 0.181158515047977,
+   "close": 0.176620865572839,
    "sma200w": 0.18710005104885116,
-   "close_vs_sma": 0.9682440706586294,
-   "pct_vs_sma": -3.2,
-   "pct_vs_2x_sma": -51.6,
-   "rsi_month": 47.2,
+   "close_vs_sma": 0.9439915413316692,
+   "pct_vs_sma": -5.6,
+   "pct_vs_2x_sma": -52.8,
+   "rsi_month": 46.9,
    "cycles_tested": 3,
    "completed_cycles": 2,
    "profitable_completed_cycles": 2,
    "record": "strong",
    "data_start": "2015-09-30",
    "signals_from": "2019-08",
-   "data_end": "2026-10-16",
+   "data_end": "2026-10-17",
    "month": "2026-10"
   },
   {
@@ -859,19 +859,19 @@
      "Buy"
     ]
    ],
-   "close": 0.0834259130985797,
+   "close": 0.0850482392752466,
    "sma200w": 0.11189637550907641,
-   "close_vs_sma": 0.7455640338574921,
-   "pct_vs_sma": -25.4,
-   "pct_vs_2x_sma": -62.7,
-   "rsi_month": 44.6,
+   "close_vs_sma": 0.7600625032608671,
+   "pct_vs_sma": -24.0,
+   "pct_vs_2x_sma": -62.0,
+   "rsi_month": 44.8,
    "cycles_tested": 2,
    "completed_cycles": 1,
    "profitable_completed_cycles": 1,
    "record": "early",
    "data_start": "2019-09-18",
    "signals_from": "2023-08",
-   "data_end": "2026-10-16",
+   "data_end": "2026-10-17",
    "month": "2026-10"
   },
   {
@@ -981,19 +981,19 @@
      "Buy"
     ]
    ],
-   "close": 7.94808335376744,
+   "close": 7.77626177956672,
    "sma200w": 18.335363365367456,
-   "close_vs_sma": 0.4334838200578063,
-   "pct_vs_sma": -56.7,
-   "pct_vs_2x_sma": -78.3,
-   "rsi_month": 39.0,
+   "close_vs_sma": 0.4241127718392985,
+   "pct_vs_sma": -57.6,
+   "pct_vs_2x_sma": -78.8,
+   "rsi_month": 38.8,
    "cycles_tested": 2,
    "completed_cycles": 1,
    "profitable_completed_cycles": 1,
    "record": "early",
    "data_start": "2016-07-25",
    "signals_from": "2020-06",
-   "data_end": "2026-10-16",
+   "data_end": "2026-10-17",
    "month": "2026-10"
   },
   {
@@ -1103,19 +1103,19 @@
      "Buy"
     ]
    ],
-   "close": 0.389573975111328,
+   "close": 0.367281332794316,
    "sma200w": 0.9345152333172796,
-   "close_vs_sma": 0.4168727926760963,
-   "pct_vs_sma": -58.3,
-   "pct_vs_2x_sma": -79.2,
-   "rsi_month": 44.4,
+   "close_vs_sma": 0.3930180265661003,
+   "pct_vs_sma": -60.7,
+   "pct_vs_2x_sma": -80.3,
+   "rsi_month": 43.8,
    "cycles_tested": 2,
    "completed_cycles": 1,
    "profitable_completed_cycles": 1,
    "record": "early",
    "data_start": "2019-11-01",
    "signals_from": "2023-09",
-   "data_end": "2026-10-16",
+   "data_end": "2026-10-17",
    "month": "2026-10"
   },
   {
@@ -1225,19 +1225,19 @@
      "Neutral"
     ]
    ],
-   "close": 1.3095836334904,
+   "close": 1.2902721531125,
    "sma200w": 1.2538852438843389,
-   "close_vs_sma": 1.0444206436575618,
-   "pct_vs_sma": 4.4,
-   "pct_vs_2x_sma": -47.8,
-   "rsi_month": 46.2,
+   "close_vs_sma": 1.029019329644107,
+   "pct_vs_sma": 2.9,
+   "pct_vs_2x_sma": -48.5,
+   "rsi_month": 45.9,
    "cycles_tested": 3,
    "completed_cycles": 2,
    "profitable_completed_cycles": 2,
    "record": "strong",
    "data_start": "2014-08-15",
    "signals_from": "2018-07",
-   "data_end": "2026-10-16",
+   "data_end": "2026-10-17",
    "month": "2026-10"
   }
  ],
@@ -1246,13 +1246,13 @@
    "ticker": "BNB",
    "name": "BNB",
    "reason": "Only one full cycle so far (bought 2023, sold 2024–25). Needs at least two.",
-   "scan_reason": "only 1 buy cycle so far (C1: buys 6 (2023-06..2023-12), sells 5 (2024-12..2025-11), 3.66x)"
+   "scan_reason": "only 1 buy cycle so far (C1: buys 6 (2023-06..2023-12), sells 5 (2024-12..2025-11), 3.65x)"
   },
   {
    "ticker": "SOL",
    "name": "Solana",
    "reason": "One buy cycle so far (2026) and it never reached the sell zone.",
-   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2026-01..2026-10), sells 0, 1.18x); never sold"
+   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2026-01..2026-10), sells 0, 1.17x); never sold"
   },
   {
    "ticker": "TRX",
@@ -1264,49 +1264,49 @@
    "ticker": "ZEC",
    "name": "Zcash",
    "reason": "Only one full cycle so far (bought 2020–21, sold 2025–26). Needs at least two.",
-   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2020-09..2021-07), sells 7 (2025-10..2026-10), 8.79x)"
+   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2020-09..2021-07), sells 7 (2025-10..2026-10), 8.70x)"
   },
   {
    "ticker": "ADA",
    "name": "Cardano",
    "reason": "One buy cycle so far (2022–23) and it never reached the sell zone.",
-   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2022-05..2023-02), sells 0, 0.56x); never sold"
+   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2022-05..2023-02), sells 0, 0.54x); never sold"
   },
   {
    "ticker": "LINK",
    "name": "Chainlink",
    "reason": "One buy cycle so far (2022–23) and it never reached the sell zone.",
-   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2022-05..2023-02), sells 0, 1.70x); never sold"
+   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2022-05..2023-02), sells 0, 1.65x); never sold"
   },
   {
    "ticker": "AVAX",
    "name": "Avalanche",
    "reason": "One buy cycle so far (2024–25) and it never reached the sell zone.",
-   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2024-08..2025-07), sells 0, 0.44x); never sold"
+   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2024-08..2025-07), sells 0, 0.43x); never sold"
   },
   {
    "ticker": "DOT",
    "name": "Polkadot",
    "reason": "One buy cycle so far (2024–25) and it never reached the sell zone.",
-   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2024-07..2025-04), sells 0, 0.23x); never sold"
+   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2024-07..2025-04), sells 0, 0.22x); never sold"
   },
   {
    "ticker": "BCH",
    "name": "Bitcoin Cash",
    "reason": "One buy cycle so far (2021–22) and it never reached the sell zone.",
-   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2021-06..2022-07), sells 0, 0.99x); never sold"
+   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2021-06..2022-07), sells 0, 0.98x); never sold"
   },
   {
    "ticker": "NEAR",
    "name": "NEAR",
    "reason": "One buy cycle so far (2024–25) and it never reached the sell zone.",
-   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2024-09..2025-09), sells 0, 1.79x); never sold"
+   "scan_reason": "only 1 buy cycle so far (C1: buys 10 (2024-09..2025-09), sells 0, 1.71x); never sold"
   },
   {
    "ticker": "DASH",
    "name": "Dash",
    "reason": "Bought in 2 cycles but never reached a profitable sell zone, and each buy window came in lower than the last.",
-   "scan_reason": "bought in 2 cycles, never reached a profitable sell zone after buying (best cycle 1.40x); each buy window lower than the last (lower lows)"
+   "scan_reason": "bought in 2 cycles, never reached a profitable sell zone after buying (best cycle 1.38x); each buy window lower than the last (lower lows)"
   }
  ],
  "recent_changes": [
@@ -1388,5 +1388,5 @@
   "backtest": "surf-backtest/v4/results.md",
   "rules": "stc/text.txt"
  },
- "generated": "2026-10-17T20:07+02:00"
+ "generated": "2026-10-18T03:13+02:00"
 }
