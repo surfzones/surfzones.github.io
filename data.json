@@ -141,7 +141,10 @@
    "data_start": "2010-07-18",
    "signals_from": "2014-06",
    "data_end": "2026-10-17",
-   "month": "2026-10"
+   "month": "2026-10",
+   "cg_id": "bitcoin",
+   "kraken_pair": "XBTUSD",
+   "kraken_name": "XXBTZUSD"
   },
   {
    "ticker": "LTC",
@@ -264,7 +267,10 @@
    "data_start": "2013-04-01",
    "signals_from": "2017-02",
    "data_end": "2026-10-17",
-   "month": "2026-10"
+   "month": "2026-10",
+   "cg_id": "litecoin",
+   "kraken_pair": "LTCUSD",
+   "kraken_name": "XLTCZUSD"
   },
   {
    "ticker": "DOGE",
@@ -387,7 +393,10 @@
    "data_start": "2014-01-23",
    "signals_from": "2017-12",
    "data_end": "2026-10-17",
-   "month": "2026-10"
+   "month": "2026-10",
+   "cg_id": "dogecoin",
+   "kraken_pair": "XDGUSD",
+   "kraken_name": "XDGUSD"
   },
   {
    "ticker": "XMR",
@@ -510,7 +519,10 @@
    "data_start": "2014-05-20",
    "signals_from": "2018-04",
    "data_end": "2026-10-17",
-   "month": "2026-10"
+   "month": "2026-10",
+   "cg_id": "monero",
+   "kraken_pair": "XMRUSD",
+   "kraken_name": "XXMRZUSD"
   },
   {
    "ticker": "ETH",
@@ -633,7 +645,10 @@
    "data_start": "2015-08-08",
    "signals_from": "2019-07",
    "data_end": "2026-10-17",
-   "month": "2026-10"
+   "month": "2026-10",
+   "cg_id": "ethereum",
+   "kraken_pair": "ETHUSD",
+   "kraken_name": "XETHZUSD"
   },
   {
    "ticker": "XLM",
@@ -756,7 +771,10 @@
    "data_start": "2015-09-30",
    "signals_from": "2019-08",
    "data_end": "2026-10-17",
-   "month": "2026-10"
+   "month": "2026-10",
+   "cg_id": "stellar",
+   "kraken_pair": "XLMUSD",
+   "kraken_name": "XXLMZUSD"
   },
   {
    "ticker": "HBAR",
@@ -879,7 +897,10 @@
    "data_start": "2019-09-18",
    "signals_from": "2023-08",
    "data_end": "2026-10-17",
-   "month": "2026-10"
+   "month": "2026-10",
+   "cg_id": "hedera-hashgraph",
+   "kraken_pair": "HBARUSD",
+   "kraken_name": "HBARUSD"
   },
   {
    "ticker": "ETC",
@@ -1002,7 +1023,10 @@
    "data_start": "2016-07-25",
    "signals_from": "2020-06",
    "data_end": "2026-10-17",
-   "month": "2026-10"
+   "month": "2026-10",
+   "cg_id": "ethereum-classic",
+   "kraken_pair": "ETCUSD",
+   "kraken_name": "XETCZUSD"
   },
   {
    "ticker": "STX",
@@ -1125,7 +1149,10 @@
    "data_start": "2019-11-01",
    "signals_from": "2023-09",
    "data_end": "2026-10-17",
-   "month": "2026-10"
+   "month": "2026-10",
+   "cg_id": "blockstack",
+   "kraken_pair": "STXUSD",
+   "kraken_name": "STXUSD"
   },
   {
    "ticker": "XRP",
@@ -1248,7 +1275,10 @@
    "data_start": "2014-08-15",
    "signals_from": "2018-07",
    "data_end": "2026-10-17",
-   "month": "2026-10"
+   "month": "2026-10",
+   "cg_id": "ripple",
+   "kraken_pair": "XRPUSD",
+   "kraken_name": "XXRPZUSD"
   }
  ],
  "not_qualified": [
@@ -1404,5 +1434,5 @@
   "backtest": "surf-backtest/v4/results.md",
   "rules": "stc/text.txt"
  },
- "generated": "2026-10-18T15:46+02:00"
+ "generated": "2026-10-18T16:17+02:00"
 }
