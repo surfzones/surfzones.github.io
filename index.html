@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Surf Zones · Crypto buy and sell zones</title>
-<meta name="description" content="Crypto buy and sell zones for long-term position traders. Surf Zones by @_CryptoSurf. Free, rules-based, monthly.">
-<meta property="og:title" content="Surf Zones · Crypto buy and sell zones"><meta property="og:site_name" content="Surf Zones"><meta property="og:description" content="Crypto buy and sell zones for long-term position traders. Updated October 2026.">
-<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Surf Zones · Crypto buy and sell zones"><meta name="twitter:description" content="Crypto buy and sell zones for long-term position traders. Updated October 2026.">
+<title>Surf Zones · Crypto accumulation and distribution zones</title>
+<meta name="description" content="Crypto accumulation and distribution zones for long-term position traders. Surf Zones by @_CryptoSurf. Free, rules-based, monthly.">
+<meta property="og:title" content="Surf Zones · Crypto accumulation and distribution zones"><meta property="og:site_name" content="Surf Zones"><meta property="og:description" content="Crypto accumulation and distribution zones for long-term position traders. Updated 22 Oct 2026, 13:42 UTC.">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Surf Zones · Crypto accumulation and distribution zones"><meta name="twitter:description" content="Crypto accumulation and distribution zones for long-term position traders. Updated 22 Oct 2026, 13:42 UTC.">
 <meta name="theme-color" content="#0b1626"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b1626'/%3E%3Cpath d='M4 19c4-5 8-5 12 0s8 5 12 0' fill='none' stroke='%233d9bff' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>
 :root{--bg:#0a1424;--bg2:#0d1a2e;--card:#101f36;--line:#1c2f4d;--tx:#e7eef7;--mu:#8ba0bb;--fa:#5f7593;--buy:#3d9bff;--sell:#ff9a1f;--neu:#7d8ea6;--r:14px}
@@ -27,14 +27,13 @@ h1{font-size:40px;line-height:1.1;margin:14px 0 8px;letter-spacing:-.02em;font-w
 .snote{margin:10px 0 0 2px;font-size:12.5px;line-height:1.5;color:var(--fa)}.snote .b{color:rgba(61,155,255,.85)}.snote .s{color:rgba(255,154,31,.85)}   /* muted note under the zone boxes */
 section{padding:30px 0}
 h2{font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
-.sub{color:var(--mu);margin:0 0 18px;font-size:15px}#not-listed .sub{margin:0 0 12px;max-width:720px}#not-listed .sub.dq2{margin:0}
 .grid{display:grid;gap:14px}
 .coin{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px}
 .coin.z-buy{background:linear-gradient(180deg,rgba(61,155,255,.16),rgba(61,155,255,.06)) var(--card);border:1px solid rgba(61,155,255,.6);box-shadow:inset 3px 0 0 var(--buy)}
 .coin.z-sell{background:linear-gradient(180deg,rgba(255,154,31,.16),rgba(255,154,31,.06)) var(--card);border:1px solid rgba(255,154,31,.6);box-shadow:inset 3px 0 0 var(--sell)}
 .coin.z-neu{background:#13233b;border-color:rgba(150,168,192,.3)}.coin.z-neu h3{color:#dde6f1}.coin.z-neu .nm{color:var(--mu)}
 .coin header{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}.coin{cursor:pointer}.coin:focus-visible{outline:2px solid var(--buy);outline-offset:3px}.shr{margin-left:0;flex:none;display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border-radius:8px;border:1px solid var(--line);background:rgba(10,20,36,.35);color:var(--mu);cursor:pointer}.shr:hover,.shr:focus-visible{color:var(--tx);border-color:var(--buy)}.shr svg{width:15px;height:15px}.shr:disabled{opacity:.5}
-.coin .id{display:flex;align-items:baseline;flex-wrap:wrap;column-gap:8px;row-gap:0;min-width:0}.cpx{color:var(--fa);font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap}.cpx.live{color:var(--mu)}.coin h3{margin:0;font-size:20px;letter-spacing:.01em}.nm{color:var(--mu);font-size:14px}
+.coin .id{display:flex;align-items:baseline;flex-wrap:wrap;column-gap:8px;row-gap:0;min-width:0}.cpx{color:var(--fa);font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap}.cpx.live{color:var(--mu)}.cup{color:var(--fa);font-size:12px;white-space:nowrap}.coin h3{margin:0;font-size:20px;letter-spacing:.01em}.coin[data-cap] h3{flex-basis:100%}.nm{color:var(--mu);font-size:14px}
 .zone{font-size:14px;font-weight:700;letter-spacing:.01em;padding:0;margin:0 2px 0 auto;flex:none;text-align:right;line-height:30px;background:none;border:0;border-radius:0;box-shadow:none;cursor:default;user-select:none;white-space:nowrap}
 .coin.z-buy.strong{border-color:rgba(61,155,255,.95);box-shadow:inset 3px 0 0 var(--buy),0 0 0 1px rgba(61,155,255,.18),0 8px 26px -12px rgba(61,155,255,.65)}
 .coin.z-sell.strong{border-color:rgba(255,154,31,.95);box-shadow:inset 3px 0 0 var(--sell),0 0 0 1px rgba(255,154,31,.18),0 8px 26px -12px rgba(255,154,31,.65)}
@@ -46,25 +45,23 @@ h2{font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0 0}
 .stats>*{background:rgba(10,20,36,.45);border-radius:9px;padding:7px 10px}.stats dt{font-size:11.5px;color:var(--mu)}.stats dd{margin:0;font-weight:600;font-variant-numeric:tabular-nums}
 .z-neu .stats dd{color:#d3dde9}
-.last{margin:10px 0 0;font-size:12.5px;color:var(--fa)}.szs{margin:10px 0 0;font-size:12.5px;color:var(--fa)}.szs+.last{margin-top:3px}
+.last{margin:10px 0 0;font-size:12.5px;color:var(--fa)}.lz{white-space:nowrap}
 .cmb{position:fixed;inset:0;z-index:50;background:rgba(4,9,18,.74);display:flex;align-items:center;justify-content:center;padding:20px}.cmb[hidden]{display:none}
 .cmx{background:var(--card);border:1px solid var(--line);border-radius:16px;width:min(780px,100%);max-height:92vh;overflow:auto;padding:16px 18px 14px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
 .cmh{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:0 0 8px}.cmh h3{margin:0;font-size:18px}.cmc{flex:none;width:34px;height:34px;border-radius:9px;border:1px solid var(--line);background:var(--bg2);color:var(--tx);font-size:15px;cursor:pointer}.cmc:hover{border-color:var(--buy)}
 .cms{display:block;width:100%;height:320px}.cml{margin:8px 0 0;font-size:12.5px;color:var(--mu);display:flex;flex-wrap:wrap;gap:4px 14px}.cml i{display:inline-block;width:16px;height:3px;border-radius:2px;margin-right:6px;vertical-align:middle}.cml .b{background:#4aa3ff}.cml .o{background:var(--sell)}.cml .dt{color:var(--fa)}.cmn{margin:6px 0 0;font-size:12px;color:var(--fa)}
 @media (max-width:600px){.cmb{align-items:flex-end;padding:0}.cmx{width:100%;border-radius:16px 16px 0 0;border-bottom:0;max-height:88vh;padding:14px 14px 20px}}
-#changes{padding:30px 0 0}.chh{font-size:15px;color:var(--mu);font-weight:600;margin:0 0 10px;letter-spacing:.01em}
+#changes{padding:6px 0 0}.chh{font-size:15px;color:var(--mu);font-weight:600;margin:0 0 10px;letter-spacing:.01em}
 .chg{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .chg li{display:inline-flex;align-items:baseline;gap:6px;background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13.5px;color:#c4d3e6}
 .chg b{color:var(--tx);font-weight:600}.cz.buy{color:var(--buy)}.cz.sell{color:var(--sell)}.cz.strong{font-weight:700}.cm{color:var(--fa);font-size:12.5px}
 .note{color:#c4d3e6;font-size:15px;margin:14px 0 0}
 .xwave{display:block;width:100%;height:48px;color:var(--buy);opacity:.28}   /* same wave as the header, full width, above the referrals/tip row */
 footer{border-top:1px solid var(--line);margin-top:20px;padding:28px 0 40px;color:var(--mu);font-size:14px}
-.toolsh{font-size:17px;margin:0 0 12px}
-.tools{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-start}
 .tool{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:14px;color:var(--tx);background:var(--bg2)}.tool:hover{border-color:var(--buy);text-decoration:none}
-#extras{display:grid;gap:24px;padding:30px 0}.xsep{display:none}.xblk .tools{margin:0}
-.xblk{text-align:center}.xblk .tools{justify-content:center}   /* mobile (stacked): both blocks centred */
-.refnote{font-size:13px;font-weight:400;color:var(--fa);margin-left:4px}
+#extras{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px 10px;padding:30px 0}   /* CTA row: three pills, centred */
+#extras .xblk{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px 10px}
+.xsep{display:none}   /* mobile (wrapped/stacked): no divider lines */
 #sponsor{padding:6px 0 0}
 .sponsor{display:block;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px 16px;color:var(--tx)}.sponsor:hover{text-decoration:none;border-color:#2a4366}
 .splbl{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--fa);margin-bottom:6px}
@@ -77,133 +74,86 @@ footer{border-top:1px solid var(--line);margin-top:20px;padding:28px 0 40px;colo
   h1{font-size:54px}.hero{padding:64px 0 46px}
   .rules{grid-template-columns:1fr 1fr;margin-top:44px}
   .grid{grid-template-columns:repeat(2,1fr)}
-  #extras.two{grid-template-columns:1fr auto 1fr;column-gap:40px;align-items:start}
-  #extras.two .xsep{display:block;width:1px;background:var(--line);align-self:stretch}
-  .xblk{text-align:left}.xblk .tools{justify-content:flex-start}
-  #extras.two #tools{text-align:right}#extras.two #tools .tools{justify-content:flex-end}   /* mirrored: left block flush to the centre line */
+}
+@media (min-width:860px){   /* wide enough for one row: [Kraken] | [TradingView] | [DOGE] */
+  #extras,#extras .xblk{flex-wrap:nowrap;column-gap:28px}
+  .xsep{display:block;width:1px;height:28px;background:var(--line);flex:none}   /* thin vertical line between neighbouring pills, like the old divider */
 }
 @media (min-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}}
 </style></head>
 <body>
 <div class="hero"><div class="wrap">
   <h1>Surf Zones</h1>
-  <p class="subtitle">Crypto buy and sell zones for long-term position traders</p>
+  <p class="subtitle">Crypto accumulation and distribution zones for long-term position traders</p>
 </div><svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 34 C150 14 300 14 450 32 S750 52 900 32 S1100 14 1200 26" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M0 46 C200 30 350 30 520 44 S820 58 980 42 S1130 34 1200 40" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/></svg><div class="wrap">
   <div class="rules">
-    <div class="rule"><b style="color:var(--buy)">Buy zone</b> · price at or below the 200-week SMA, with monthly RSI at or below 50, or a bullish divergence.</div>
-    <div class="rule s"><b style="color:var(--sell)">Sell zone</b> · price at or above 2× the 200-week SMA, with monthly RSI at or above 75, or a bearish divergence.</div>
+    <div class="rule"><b style="color:var(--buy)">Accumulation zone</b> · price at or below the 200-week SMA, with monthly RSI at or below 50, or a bullish divergence.</div>
+    <div class="rule s"><b style="color:var(--sell)">Distribution zone</b> · price at or above 2× the 200-week SMA, with monthly RSI at or above 75, or a bearish divergence.</div>
   </div>
-  <p class="snote"><span class="b">Strong Buy</span> / <span class="s">Strong Sell</span>: in the zone plus a fresh weekly or monthly divergence.</p>
+  <p class="snote"><span class="b">Strong Accumulation</span> / <span class="s">Strong Distribution</span>: in the zone plus a fresh weekly or monthly divergence.</p>
 </div></div>
 
 <main class="wrap">
-<section id="changes"><h2 class="chh">Recent zone changes</h2><ul class="chg"><li><b>DOGE</b> left <span class="cz buy strong">Strong Buy zone</span> <span class="cm">· Sep 2026</span></li><li><b>BTC</b> left <span class="cz buy">Buy zone</span> <span class="cm">· Sep 2026</span></li><li><b>XRP</b> left <span class="cz buy">Buy zone</span> <span class="cm">· Sep 2026</span></li><li><b>HBAR</b> left <span class="cz buy strong">Strong Buy zone</span> <span class="cm">· Aug 2026</span></li><li><b>ETC</b> left <span class="cz buy strong">Strong Buy zone</span> <span class="cm">· Jul 2026</span></li></ul></section>
+<section id="changes"><h2 class="chh">Recent zone changes</h2><ul class="chg"><li><b>TOTAL2</b> entered <span class="cz buy">Accumulation zone</span> <span class="cm">· Oct 2026</span></li><li><b>DOGE</b> left <span class="cz buy strong">Strong Accumulation zone</span> <span class="cm">· Sep 2026</span></li><li><b>BTC</b> left <span class="cz buy">Accumulation zone</span> <span class="cm">· Sep 2026</span></li><li><b>TOTAL</b> left <span class="cz buy">Accumulation zone</span> <span class="cm">· Sep 2026</span></li><li><b>TOTAL3</b> left <span class="cz buy">Accumulation zone</span> <span class="cm">· Sep 2026</span></li></ul></section>
 <section id="list" style="padding-top:22px">
   <div class="grid">
 <article class="coin z-neu">
-  <header><div class="id"><h3>BTC</h3><span class="nm">Bitcoin</span><span class="cpx" data-cg="bitcoin" data-kp="XBTUSD" data-kn="XXBTZUSD" data-close="81268.9431190474" data-asof="2026-10-17" title="Last daily close, 17 Oct 2026 (UTC)">$81,269</span></div><span class="zone neu">Neutral</span></header>
-  <div class="track" aria-hidden="true"><span class="px" style="left:44.5%"></span></div>
-  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="">+24%</dd></div>
-      <div><dt>vs 2× SMA</dt><dd>−38%</dd></div><div><dt>Monthly RSI</dt><dd>52</dd></div></dl>
-  <p class="last">Last buy zone: Aug 2026 · Last sell zone: Nov 2025</p>
+  <header><div class="id"><h3>BTC</h3><span class="nm">Bitcoin</span><span class="cpx" data-cg="bitcoin" data-kp="XBTUSD" data-kn="XXBTZUSD" data-close="81562.5" data-asof="2026-10-22" title="Updated 22 Oct 2026, 13:42 UTC">$81,563</span><span class="cup" data-at="2026-10-22T13:42Z">Updated 22 Oct 2026, 13:42 UTC</span></div><span class="zone neu">Neutral</span></header>
+  <div class="track" aria-hidden="true"><span class="px" style="left:43.7%"></span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="">+21%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−40%</dd></div><div><dt>Monthly RSI</dt><dd>52</dd></div></dl>
+  <p class="last"><span class="lz">Last accumulation zone: Aug 2026</span> · <span class="lz">Last distribution zone: Aug 2025</span></p>
 </article>
 <article class="coin z-buy">
-  <header><div class="id"><h3>LTC</h3><span class="nm">Litecoin</span><span class="cpx" data-cg="litecoin" data-kp="LTCUSD" data-kn="XLTCZUSD" data-close="58.6976142801617" data-asof="2026-10-17" title="Last daily close, 17 Oct 2026 (UTC)">$58.70</span></div><span class="zone buy">Buy</span></header>
-  <div class="track" aria-hidden="true"><span class="px" style="left:18.0%"></span></div>
-  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−27%</dd></div>
-      <div><dt>vs 2× SMA</dt><dd>−63%</dd></div><div><dt>Monthly RSI</dt><dd>44</dd></div></dl>
-  <p class="szs">Sell zone starts at $160.07</p>
-  <p class="last">Last sell zone: Jun 2021</p>
+  <header><div class="id"><h3>LTC</h3><span class="nm">Litecoin</span><span class="cpx" data-cg="litecoin" data-kp="LTCUSD" data-kn="XLTCZUSD" data-close="59.18" data-asof="2026-10-22" title="Updated 22 Oct 2026, 13:42 UTC">$59.18</span><span class="cup" data-at="2026-10-22T13:42Z">Updated 22 Oct 2026, 13:42 UTC</span></div><span class="zone buy">Accumulation</span></header>
+  <div class="track" aria-hidden="true"><span class="px" style="left:18.4%"></span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−26%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−63%</dd></div><div><dt>Monthly RSI</dt><dd>45</dd></div></dl>
+  <p class="last"><span class="lz">Last distribution zone: May 2021</span></p>
 </article>
 <article class="coin z-buy">
-  <header><div class="id"><h3>DOGE</h3><span class="nm">Dogecoin</span><span class="cpx" data-cg="dogecoin" data-kp="XDGUSD" data-kn="XDGUSD" data-close="0.0790985381054227" data-asof="2026-10-17" title="Last daily close, 17 Oct 2026 (UTC)">$0.07910</span></div><span class="zone buy">Buy</span></header>
-  <div class="track" aria-hidden="true"><span class="px" style="left:7.8%"></span></div>
-  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−42%</dd></div>
-      <div><dt>vs 2× SMA</dt><dd>−71%</dd></div><div><dt>Monthly RSI</dt><dd>42</dd></div></dl>
-  <p class="szs">Sell zone starts at $0.2753</p>
-  <p class="last">Last sell zone: Dec 2024</p>
+  <header><div class="id"><h3>DOGE</h3><span class="nm">Dogecoin</span><span class="cpx" data-cg="dogecoin" data-kp="XDGUSD" data-kn="XDGUSD" data-close="0.07951" data-asof="2026-10-22" title="Updated 22 Oct 2026, 13:42 UTC">$0.07951</span><span class="cup" data-at="2026-10-22T13:42Z">Updated 22 Oct 2026, 13:42 UTC</span></div><span class="zone buy">Accumulation</span></header>
+  <div class="track" aria-hidden="true"><span class="px" style="left:8.8%"></span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−41%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−71%</dd></div><div><dt>Monthly RSI</dt><dd>43</dd></div></dl>
+  <p class="last"><span class="lz">Last distribution zone: Dec 2024</span></p>
 </article>
-<article class="coin z-neu">
-  <header><div class="id"><h3>XMR</h3><span class="nm">Monero</span><span class="cpx" data-cg="monero" data-kp="XMRUSD" data-kn="XXMRZUSD" data-close="568.668633314749" data-asof="2026-10-17" title="Last daily close, 17 Oct 2026 (UTC)">$568.67</span></div><span class="zone neu">Neutral</span></header>
-  <div class="track" aria-hidden="true"><span class="px" style="left:64.0%"></span></div>
-  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="">+138%</dd></div>
-      <div><dt>vs 2× SMA</dt><dd>+19%</dd></div><div><dt>Monthly RSI</dt><dd>70</dd></div></dl>
-  <p class="last">Last buy zone: Nov 2024 · Last sell zone: Feb 2026</p>
+<article class="coin z-neu" data-t="TOTALES" data-cap="1">
+  <header><div class="id"><h3>TOTAL</h3><span class="nm">Market cap ex stables</span><span class="cpx" data-close="2427169058210.0" data-asof="2026-10-22" title="Updated 22 Oct 2026, 13:42 UTC">$2.43T</span><span class="cup" data-at="2026-10-22T13:42Z">Updated 22 Oct 2026, 13:42 UTC</span></div><span class="zone neu">Neutral</span></header>
+  <div class="track" aria-hidden="true"><span class="px" style="left:41.5%"></span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="">+15%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−43%</dd></div><div><dt>Monthly RSI</dt><dd>51</dd></div></dl>
+  <p class="last"><span class="lz">Last accumulation zone: Aug 2026</span> · <span class="lz">Last distribution zone: Oct 2025</span></p>
 </article>
-<article class="coin z-buy">
-  <header><div class="id"><h3>ETH</h3><span class="nm">Ethereum</span><span class="cpx" data-cg="ethereum" data-kp="ETHUSD" data-kn="XETHZUSD" data-close="2394.9388993571" data-asof="2026-10-17" title="Last daily close, 17 Oct 2026 (UTC)">$2,395</span></div><span class="zone buy">Buy</span></header>
-  <div class="track" aria-hidden="true"><span class="px" style="left:28.8%"></span></div>
-  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−5%</dd></div>
-      <div><dt>vs 2× SMA</dt><dd>−52%</dd></div><div><dt>Monthly RSI</dt><dd>49</dd></div></dl>
-  <p class="szs">Sell zone starts at $5,046</p>
-  <p class="last">Last sell zone: Jan 2022</p>
+<article class="coin z-buy" data-t="TOTAL2ES" data-cap="1">
+  <header><div class="id"><h3>TOTAL2</h3><span class="nm">Ex BTC &amp; stables</span><span class="cpx" data-close="788817894435.0" data-asof="2026-10-22" title="Updated 22 Oct 2026, 13:42 UTC">$789B</span><span class="cup" data-at="2026-10-22T13:42Z">Updated 22 Oct 2026, 13:42 UTC</span></div><span class="zone buy">Accumulation</span></header>
+  <div class="track" aria-hidden="true"><span class="px" style="left:31.0%"></span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="">+1%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−49%</dd></div><div><dt>Monthly RSI</dt><dd>49</dd></div></dl>
+  <p class="last"><span class="lz">Last distribution zone: Oct 2025</span></p>
 </article>
-<article class="coin z-buy">
-  <header><div class="id"><h3>XLM</h3><span class="nm">Stellar</span><span class="cpx" data-cg="stellar" data-kp="XLMUSD" data-kn="XXLMZUSD" data-close="0.176620865572839" data-asof="2026-10-17" title="Last daily close, 17 Oct 2026 (UTC)">$0.1766</span></div><span class="zone buy">Buy</span></header>
-  <div class="track" aria-hidden="true"><span class="px" style="left:28.6%"></span></div>
-  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−6%</dd></div>
-      <div><dt>vs 2× SMA</dt><dd>−53%</dd></div><div><dt>Monthly RSI</dt><dd>47</dd></div></dl>
-  <p class="szs">Sell zone starts at $0.3742</p>
-  <p class="last">Last sell zone: Dec 2024</p>
-</article>
-<article class="coin z-buy">
-  <header><div class="id"><h3>HBAR</h3><span class="nm">Hedera</span><span class="cpx" data-cg="hedera-hashgraph" data-kp="HBARUSD" data-kn="HBARUSD" data-close="0.0850482392752466" data-asof="2026-10-17" title="Last daily close, 17 Oct 2026 (UTC)">$0.08505</span></div><span class="zone buy">Buy</span></header>
-  <div class="track" aria-hidden="true"><span class="px" style="left:19.5%"></span></div>
-  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−24%</dd></div>
-      <div><dt>vs 2× SMA</dt><dd>−62%</dd></div><div><dt>Monthly RSI</dt><dd>45</dd></div></dl>
-  <p class="szs">Sell zone starts at $0.2238</p>
-  <p class="last">Last sell zone: Feb 2025</p>
-</article>
-<article class="coin z-buy">
-  <header><div class="id"><h3>ETC</h3><span class="nm">Ethereum Classic</span><span class="cpx" data-cg="ethereum-classic" data-kp="ETCUSD" data-kn="XETCZUSD" data-close="7.77626177956672" data-asof="2026-10-17" title="Last daily close, 17 Oct 2026 (UTC)">$7.78</span></div><span class="zone buy">Buy</span></header>
-  <div class="track" aria-hidden="true"><span class="px" style="left:2.0%"></span></div>
-  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−58%</dd></div>
-      <div><dt>vs 2× SMA</dt><dd>−79%</dd></div><div><dt>Monthly RSI</dt><dd>39</dd></div></dl>
-  <p class="szs">Sell zone starts at $36.67</p>
-  <p class="last">Last sell zone: Sep 2021</p>
-</article>
-<article class="coin z-buy">
-  <header><div class="id"><h3>STX</h3><span class="nm">Stacks</span><span class="cpx" data-cg="blockstack" data-kp="STXUSD" data-kn="STXUSD" data-close="0.367281332794316" data-asof="2026-10-17" title="Last daily close, 17 Oct 2026 (UTC)">$0.3673</span></div><span class="zone buy">Buy</span></header>
-  <div class="track" aria-hidden="true"><span class="px" style="left:2.0%"></span></div>
-  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="neg">−61%</dd></div>
-      <div><dt>vs 2× SMA</dt><dd>−80%</dd></div><div><dt>Monthly RSI</dt><dd>44</dd></div></dl>
-  <p class="szs">Sell zone starts at $1.87</p>
-  <p class="last">Last sell zone: Apr 2024</p>
-</article>
-<article class="coin z-neu">
-  <header><div class="id"><h3>XRP</h3><span class="nm">XRP</span><span class="cpx" data-cg="ripple" data-kp="XRPUSD" data-kn="XXRPZUSD" data-close="1.2902721531125" data-asof="2026-10-17" title="Last daily close, 17 Oct 2026 (UTC)">$1.29</span></div><span class="zone neu">Neutral</span></header>
-  <div class="track" aria-hidden="true"><span class="px" style="left:37.2%"></span></div>
-  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="">+3%</dd></div>
-      <div><dt>vs 2× SMA</dt><dd>−48%</dd></div><div><dt>Monthly RSI</dt><dd>46</dd></div></dl>
-  <p class="last">Last buy zone: Aug 2026 · Last sell zone: Aug 2025</p>
+<article class="coin z-neu" data-t="TOTAL3ES" data-cap="1">
+  <header><div class="id"><h3>TOTAL3</h3><span class="nm">Ex BTC, ETH &amp; stables</span><span class="cpx" data-close="495238682271.0" data-asof="2026-10-22" title="Updated 22 Oct 2026, 13:42 UTC">$495B</span><span class="cup" data-at="2026-10-22T13:42Z">Updated 22 Oct 2026, 13:42 UTC</span></div><span class="zone neu">Neutral</span></header>
+  <div class="track" aria-hidden="true"><span class="px" style="left:38.0%"></span></div>
+  <dl class="stats"><div><dt>vs 200W SMA</dt><dd class="">+5%</dd></div>
+      <div><dt>vs 2× SMA</dt><dd>−47%</dd></div><div><dt>Monthly RSI</dt><dd>49</dd></div></dl>
+  <p class="last"><span class="lz">Last accumulation zone: Aug 2026</span> · <span class="lz">Last distribution zone: Dec 2024</span></p>
 </article>
   </div>
-</section>
-
-<section id="not-listed">
-  <h2>Note</h2>
-  <p class="sub">A coin needs at least two buy cycles, a cycle that reached the sell zone or doubled, and to still be a liquid top-100 coin. Newer coins don’t have 200 weeks of history yet, so the system can’t be tested on them.</p>
-  <p class="sub dq2">Not every coin respects the cycle. Don’t see your coin? It hasn’t earned a spot yet.</p>
 </section>
 
 </main>
 <div class="xwrap"><svg class="wave xwave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 34 C150 14 300 14 450 32 S750 52 900 32 S1100 14 1200 26" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M0 46 C200 30 350 30 520 44 S820 58 980 42 S1130 34 1200 40" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/></svg><div class="wrap">
 <section id="extras" class="two">
-  <div id="tools" class="xblk">
-    <h2 class="toolsh">Tools I use <span class="refnote">(referrals)</span></h2>
-    <div class="tools"><a class="tool" href="https://proinvite.kraken.com/9f1e/mo7cks8b" rel="sponsored noopener" target="_blank">Trade on Kraken</a><a class="tool" href="https://www.tradingview.com/pricing/?share_your_love=Crypto_Surf" rel="sponsored noopener" target="_blank">Charts on TradingView</a></div>
-  </div>
+  <div id="tools" class="xblk" role="group" aria-label="Referral links"><a class="tool" href="https://proinvite.kraken.com/9f1e/mo7cks8b" rel="sponsored noopener" target="_blank" title="Referral link" aria-label="Trade on Kraken (referral link)">Trade on Kraken</a><span class="xsep" aria-hidden="true"></span><a class="tool" href="https://www.tradingview.com/pricing/?share_your_love=Crypto_Surf" rel="sponsored noopener" target="_blank" title="Referral link" aria-label="Chart on TradingView (referral link)">Chart on TradingView</a></div>
   <span class="xsep" aria-hidden="true"></span>
-  <div id="tip" class="xblk">
-    <h2 class="toolsh">Enjoy Surf Zones?</h2>
-    <div class="tools"><a class="tool" href="https://www.mydoge.com/Surf" rel="noopener" target="_blank">Buy me a coffee with DOGE</a></div>
-  </div>
+  <div id="tip" class="xblk"><a class="tool" href="https://www.mydoge.com/Surf" rel="noopener" target="_blank">Buy me a coffee with DOGE</a></div>
 </section>
 </div></div>
 
 <footer><div class="wrap">
   <p class="nfa">Not financial advice.</p>
-  <p>Updated 17 Oct 2026</p>
+  <p>Updated 22 Oct 2026, 13:42 UTC</p>
   <p>by <a href="https://x.com/_CryptoSurf" rel="noopener">@_CryptoSurf</a></p>
 </div></footer>
 <script>
@@ -212,8 +162,9 @@ const T=8000,MAXAGE=300000;let last=0,busy=false;
 function fmt(x){if(x>=999.995)return'$'+Math.round(x).toLocaleString('en-US');if(x>=0.99995)return'$'+x.toFixed(2);const d=3-Math.floor(Math.log10(x));let s=x.toFixed(d);if(parseFloat(s)>=Math.pow(10,4-d))s=x.toFixed(d-1);return'$'+s}
 function ok(v,c){return typeof v==='number'&&isFinite(v)&&v>0&&Math.abs(v/c-1)<=0.5}
 function get(u){const a=new AbortController(),t=setTimeout(()=>a.abort(),T);return fetch(u,{signal:a.signal,cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.json()}).finally(()=>clearTimeout(t))}
-function show(e,v,src){e.textContent=fmt(v);e.classList.add('live');e.dataset.at=Date.now();e.title='Live price ('+src+'), '+new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}
-function back(e){e.textContent=e.dataset.fb;e.classList.remove('live');e.title=e.dataset.ft;delete e.dataset.at}
+function lab(ms){const d=new Date(ms),p=x=>String(x).padStart(2,'0');return d.getUTCDate()+' '+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][d.getUTCMonth()]+', '+p(d.getUTCHours())+':'+p(d.getUTCMinutes())+' UTC'}
+function show(e,v,src){e.textContent=fmt(v);e.classList.add('live');e.dataset.at=Date.now();e.title='Updated '+lab(Date.now())+' (live, '+src+')';e.dispatchEvent(new Event('pxupd',{bubbles:true}))}
+function back(e){e.textContent=e.dataset.fb;e.classList.remove('live');e.title=e.dataset.ft;delete e.dataset.at;e.dispatchEvent(new Event('pxupd',{bubbles:true}))}
 async function tick(){if(document.hidden||busy)return;busy=true;last=Date.now();const need=new Set(P);
  try{const j=await get('https://api.coingecko.com/api/v3/simple/price?ids='+[...new Set(P.map(e=>e.dataset.cg))].join(',')+'&vs_currencies=usd');
   for(const e of P){const v=j&&j[e.dataset.cg]&&j[e.dataset.cg].usd;if(ok(v,+e.dataset.close)){show(e,v,'CoinGecko');need.delete(e)}}}catch(_){}
@@ -231,9 +182,31 @@ const NS='http://www.w3.org/2000/svg',DAY=864e5;let CD=null,box=null,back=null,l
 function data(){return CD||(CD=fetch('chart-data.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw 0;return r.json()}).catch(e=>{CD=null;throw e}))}
 function el(n,a,p){const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
 function utc(s){const p=s.split('-').map(Number);return Date.UTC(p[0],(p[1]||1)-1,p[2]||1)}
+function zline(svg,d,W,H,since,ax){   // share chart: monthly price line coloured by zone (v5.2 Line-mode colours); since=0: full history, since<0: from the first zone month (incl. the segment into it); ax=1: year labels + log price grid
+ const n=d.c.length,RW=ax?64:0,BH=ax?26:0,TP=ax?8:0,PW=W-RW,FF='system-ui,-apple-system,Segoe UI,Roboto,sans-serif',C={b:'#3179f5',s:'#ff9800',n:'#ffffff'};
+ const zk=[];for(let j=0;j<d.z.length;j++){const e=j+1<d.z.length?d.z[j+1][0]:n;for(let i=d.z[j][0];i<e;i++)zk[i]=d.z[j][1]}
+ for(let i=0;i<n;i++)if(d.m[i]==null)zk[i]=undefined;   // no SMA yet = no zone (as in the indicator)
+ const fz=zk.findIndex(k=>k==='b'||k==='s'),i0=since<0?Math.max(0,(fz<0?0:fz)-1):since?Math.max(0,n-since):0;   // start one month before the first zone month so the segment into it shows its colour
+ let lo=Infinity,hi=0;for(let i=i0;i<n;i++){const v=d.c[i];if(v>0){lo=Math.min(lo,v);hi=Math.max(hi,v)}}   // vertical scale = price only
+ lo*=0.88;hi*=1.12;svg.setAttribute('viewBox','0 0 '+W+' '+H);
+ const X=i=>(i-i0)/Math.max(1,n-1-i0)*PW,Y=v=>TP+(Math.log(hi)-Math.log(v))/(Math.log(hi)-Math.log(lo))*(H-BH-TP);
+ if(ax){let tv=ticks(lo,hi);while(tv.length>5)tv=tv.filter((_,k)=>k%2===(tv.length%2?0:1));   // a few subtle log gridlines, labels on the right
+  for(const v of tv){const y=Y(v);el('line',{x1:0,x2:PW,y1:y.toFixed(1),y2:y.toFixed(1),stroke:'rgba(139,160,187,.13)','stroke-width':1},svg);
+   const tx=el('text',{x:W,y:(y+5).toFixed(1),'text-anchor':'end',fill:'#5f7593','font-size':16,'font-family':FF},svg);tx.textContent=fmtTick(v)}
+  const p=d.t0.split('-').map(Number),y0=p[0]+(p[1]>1?1:0),y1=p[0]+Math.floor((p[1]-1+n-1)/12),sp=(n-1-i0)/12,st=sp<=10?1:sp<=20?2:sp<=32?4:5;   // subtle year labels along the bottom
+  for(let y=y0;y<=y1;y++){if(y%st)continue;const i=(y-p[0])*12-(p[1]-1);if(i<i0||i>n-1)continue;const x=X(i);if(x<18||x>PW-18)continue;
+   el('line',{x1:x.toFixed(1),x2:x.toFixed(1),y1:TP,y2:H-BH,stroke:'rgba(139,160,187,.07)','stroke-width':1},svg);
+   const tx=el('text',{x:x.toFixed(1),y:H-4,'text-anchor':'middle',fill:'#5f7593','font-size':16,'font-family':FF},svg);tx.textContent=y}}
+ const A=[],B=[],seg=(x1,y1,x2,y2,c)=>el('line',{x1:x1.toFixed(1),y1:y1.toFixed(1),x2:x2.toFixed(1),y2:y2.toFixed(1),stroke:c,'stroke-width':c===C.n?2.6:3.4,'stroke-linecap':'round'},svg);
+ for(let i=i0+1;i<n;i++){const x1=X(i-1),y1=Y(d.c[i-1]),x2=X(i),y2=Y(d.c[i]),k=zk[i],q=zk[i-1];
+  if(k==='b'||k==='s')B.push([x1,y1,x2,y2,C[k]]);                                  // Pine Line mode: segment coloured by the month it ends on
+  else if(q==='b'||q==='s'){const xm=(x1+x2)/2,ym=(y1+y2)/2;B.push([x1,y1,xm,ym,C[q]]);A.push([xm,ym,x2,y2,C.n])}   // + half-segment out of a zone month (lone months stay visible)
+  else A.push([x1,y1,x2,y2,C.n])}
+ for(const a of A)seg(...a);for(const b of B)seg(...b)   // neutral first, zone colours on top
+}
 function pts(d){const p=d.t0.split('-').map(Number),o=[];for(let i=0;i<d.c.length;i++)o.push([Date.UTC(p[0],p[1]-1+i,15),d.c[i],i]);return o}   // one point per month (mid-month)
 const CL={n:'#e7eef7',b:'#4aa3ff',s:'#ff9a1f'};
-function fmtTick(v){if(v>=1000)return'$'+(v>=1e6?(v/1e6)+'M':v>=1e3?(v/1e3)+'k':v);if(v>=1)return'$'+v;return'$'+(+v.toPrecision(2))}
+function fmtTick(v){if(v>=1000)return'$'+(v>=1e12?(v/1e12)+'T':v>=1e9?(v/1e9)+'B':v>=1e6?(v/1e6)+'M':v>=1e3?(v/1e3)+'k':v);if(v>=1)return'$'+v;return'$'+(+v.toPrecision(2))}
 function ticks(lo,hi){const o=[];for(let e=Math.floor(Math.log10(lo));e<=Math.ceil(Math.log10(hi));e++)for(const m of [1,2,5]){const v=m*Math.pow(10,e);if(v>=lo&&v<=hi)o.push(v)}
  return o.length>6?o.filter(v=>Math.abs(Math.log10(v)%1)<1e-9):o}
 function draw(svg,d,W,H,opt){opt=opt||{};while(svg.firstChild)svg.removeChild(svg.firstChild);svg.setAttribute('viewBox','0 0 '+W+' '+H);
@@ -253,14 +226,14 @@ function draw(svg,d,W,H,opt){opt=opt||{};while(svg.firstChild)svg.removeChild(sv
   if(s.indexOf('L')>0)el('path',{d:s,fill:'none',stroke:CL[z[j][1]],'stroke-width':w,'stroke-linejoin':'round','stroke-linecap':'round'},svg)}}
 function close(){if(!back)return;back.hidden=true;document.body.style.overflow='';if(lastFocus)lastFocus.focus()}
 function modal(){if(back)return;back=document.createElement('div');back.className='cmb';back.hidden=true;
- back.innerHTML='<div class="cmx" role="dialog" aria-modal="true" aria-labelledby="cmt"><div class="cmh"><h3 id="cmt"></h3><button type="button" class="cmc" aria-label="Close chart">&#x2715;</button></div><svg class="cms" role="img"></svg><p class="cml"><span><i class="b"></i>Blue = Buy zone</span><span class="dt">·</span><span><i class="o"></i>Orange = Sell zone</span></p><p class="cmn"></p></div>';
+ back.innerHTML='<div class="cmx" role="dialog" aria-modal="true" aria-labelledby="cmt"><div class="cmh"><h3 id="cmt"></h3><button type="button" class="cmc" aria-label="Close chart">&#x2715;</button></div><svg class="cms" role="img"></svg><p class="cml"><span><i class="b"></i>Blue = Accumulation zone</span><span class="dt">·</span><span><i class="o"></i>Orange = Distribution zone</span></p><p class="cmn"></p></div>';
  document.body.appendChild(back);box=back.firstChild;box.querySelector('.cmc').onclick=close;back.addEventListener('click',e=>{if(e.target===back)close()});
  document.addEventListener('keydown',e=>{if(back.hidden)return;if(e.key==='Escape'){e.preventDefault();close()}else if(e.key==='Tab'){e.preventDefault();box.querySelector('.cmc').focus()}})}
 function open(a){modal();lastFocus=a;const t=a.querySelector('h3').textContent,n=a.querySelector('.nm').textContent;box.querySelector('#cmt').textContent=t+' · '+n;
- const svg=box.querySelector('.cms'),note=box.querySelector('.cmn');while(svg.firstChild)svg.removeChild(svg.firstChild);note.textContent='Loading chart…';svg.setAttribute('aria-label',t+' monthly closes since '+'launch, log scale; the line is blue in buy zone months and orange in sell zone months');
+ const svg=box.querySelector('.cms'),note=box.querySelector('.cmn');while(svg.firstChild)svg.removeChild(svg.firstChild);note.textContent='Loading chart…';svg.setAttribute('aria-label',t+' monthly closes since '+'launch, log scale; the line is blue in accumulation zone months and orange in distribution zone months');
  back.hidden=false;document.body.style.overflow='hidden';box.querySelector('.cmc').focus();
- data().then(D=>{const d=D.coins[t];if(!d){note.textContent='No chart data for '+t+'.';return}const W=Math.round(svg.getBoundingClientRect().width)||640,H=W<480?250:320;
-  svg.style.height=H+'px';draw(svg,d,W,H);note.textContent='Monthly closes since '+new Date(utc(d.t0)).getUTCFullYear()+', log price, nightly data to '+new Date(utc(D.data_end)).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'})+' (UTC). The last point is this month so far.'}).catch(()=>{note.textContent='Chart data could not be loaded.'})}
+ data().then(D=>{const d=D.coins[a.dataset.t||t];if(!d){note.textContent='No chart data for '+t+'.';return}const W=Math.round(svg.getBoundingClientRect().width)||640,H=W<480?250:320;
+  svg.style.height=H+'px';draw(svg,d,W,H);note.textContent='Monthly closes since '+new Date(utc(d.t0)).getUTCFullYear()+(a.dataset.cap?', log market cap, nightly data to ':', log price, nightly data to ')+new Date(utc(D.data_end)).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'})+' (UTC). The last point is this month so far.'}).catch(()=>{note.textContent='Chart data could not be loaded.'})}
 function rr(g,x,y,w,h,r){g.beginPath();g.moveTo(x+r,y);g.arcTo(x+w,y,x+w,y+h,r);g.arcTo(x+w,y+h,x,y+h,r);g.arcTo(x,y+h,x,y,r);g.arcTo(x,y,x+w,y,r);g.closePath()}
 async function share(a,btn){btn.disabled=true;try{const t=a.querySelector('h3').textContent,n=a.querySelector('.nm').textContent,z=a.querySelector('.zone'),px=a.querySelector('.cpx');
  const zc=z.classList.contains('buy')?'#3d9bff':z.classList.contains('sell')?'#ff9a1f':'#7d8ea6',live=px&&px.classList.contains('live');
@@ -268,22 +241,26 @@ async function share(a,btn){btn.disabled=true;try{const t=a.querySelector('h3').
  const bg=g.createLinearGradient(0,0,0,675);bg.addColorStop(0,'#0f2140');bg.addColorStop(1,'#0a1424');g.fillStyle=bg;g.fillRect(0,0,1200,675);
  rr(g,40,40,1120,595,28);g.fillStyle='#101f36';g.fill();g.lineWidth=2;g.strokeStyle=zc+'99';g.stroke();g.fillStyle=zc;g.fillRect(40,68,6,539);
  g.fillStyle='#e7eef7';g.font='700 92px '+F;g.textBaseline='alphabetic';g.fillText(t,92,160);const tw=g.measureText(t).width;
- g.fillStyle='#8ba0bb';g.font='400 40px '+F;g.fillText(n,92+tw+24,160);
- const lbl=z.textContent;g.font='700 38px '+F;const bw=g.measureText(lbl).width+56;rr(g,1108-bw,96,bw,66,33);
- if(zc==='#7d8ea6'){g.fillStyle='rgba(150,168,192,.16)';g.fill();g.strokeStyle='rgba(150,168,192,.5)';g.lineWidth=2;g.stroke();g.fillStyle='#d3dde9'}
- else{if(z.classList.contains('strong')){g.shadowColor=zc;g.shadowBlur=28}g.fillStyle=zc;g.fill();g.shadowBlur=0;g.fillStyle=zc==='#3d9bff'?'#06101f':'#1a0f00'}
- g.fillText(lbl,1108-bw+28,142);
+ const lbl=z.textContent,st=z.classList.contains('strong'),LW=zc==='#7d8ea6'?'600 ':st?'800 ':'700 ';let ls=44,fs=40,LF,bw,nw;   // zone label = plain text like the card badge (no pill)
+ const fit=()=>{LF=LW+ls+'px '+F;g.font=LF;bw=g.measureText(lbl).width;g.font='400 '+fs+'px '+F;nw=g.measureText(n).width;return 92+tw+24+nw<=1108-bw-28};
+ while(!fit()&&(ls>32||fs>24)){if(fs>24&&(fs>=ls-4||ls<=32))fs-=2;else ls-=2}   // long subtitle + long label: shrink both, never overlap
+ g.fillStyle='#8ba0bb';g.font='400 '+fs+'px '+F;if(fit())g.fillText(n,92+tw+24,160);else{g.font='400 24px '+F;g.fillText(n,92,196)}
+ g.font=LF;g.fillStyle=zc==='#7d8ea6'?'#8ba0bb':zc;g.textAlign='right';g.fillText(lbl,1108,142);g.textAlign='left';   // card colours: --mu / --buy / --sell
  g.fillStyle='#e7eef7';g.font='600 64px '+F;g.fillText(px?px.textContent:'',92,250);
- g.fillStyle='#5f7593';g.font='400 26px '+F;g.fillText(live?'Live price':(px?px.title:''),92,292);
- try{const D=await data(),d=D.coins[t];if(d){const s=document.createElementNS(NS,'svg');draw(s,d,1016,206,{bare:1,L:0,R:0,T:0,B:0,since:pts(d)[Math.max(0,d.c.length-60)][0]});
-   const img=new Image(),u=URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(s).replace('<svg','<svg width="1016" height="206"')],{type:'image/svg+xml'}));
-   await new Promise((ok,no)=>{img.onload=ok;img.onerror=no;img.src=u});g.drawImage(img,92,318,1016,206);URL.revokeObjectURL(u);
-   g.fillStyle='#5f7593';g.font='400 22px '+F;g.fillText('Last 5 years · monthly · Blue = Buy zone · Orange = Sell zone',92,606)}}catch(_){}
+ g.fillStyle='#5f7593';g.font='400 26px '+F;const cu=a.querySelector('.cup'),pt=px&&px.dataset.at?+px.dataset.at:cu?Date.parse(cu.dataset.at):NaN,pd_=new Date(pt);
+ g.fillText(isNaN(pt)?'':['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][pd_.getUTCMonth()]+' '+pd_.getUTCDate()+', '+pd_.getUTCFullYear(),92,292);   // share: date only (UTC) of the price shown (price_at or live fetch)
+ try{const D=await data(),d=D.coins[a.dataset.t||t];if(d){const s=document.createElementNS(NS,'svg');zline(s,d,1016,244,-1,1);
+   const img=new Image(),u=URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(s).replace('<svg','<svg width="1016" height="244"')],{type:'image/svg+xml'}));
+   await new Promise((ok,no)=>{img.onload=ok;img.onerror=no;img.src=u});g.drawImage(img,92,306,1016,244);URL.revokeObjectURL(u);
+   g.fillStyle='#5f7593';g.font='400 22px '+F;g.fillText('Monthly',92,580);g.fillText('Blue = Accumulation zone · Orange = Distribution zone',92,608)}}catch(_){}
  g.textAlign='right';g.fillStyle='#e7eef7';g.font='700 44px '+F;g.fillText('@_CryptoSurf',1108,584);g.fillStyle='#8ba0bb';g.font='400 24px '+F;g.fillText('surfzones.github.io',1108,614);g.textAlign='left';
  const blob=await new Promise(r=>c.toBlob(r,'image/png')),name='surfzones-'+t+'.png',f=new File([blob],name,{type:'image/png'});
  if(navigator.canShare&&navigator.canShare({files:[f]})){try{await navigator.share({files:[f],title:t+' · Surf Zones'})}catch(_){}}
  else{const l=document.createElement('a'),u=URL.createObjectURL(blob);l.href=u;l.download=name;document.body.appendChild(l);l.click();l.remove();setTimeout(()=>URL.revokeObjectURL(u),4000)}}
  finally{btn.disabled=false}}
+const REL=()=>{for(const a of A){const u=a.querySelector('.cup'),px=a.querySelector('.cpx');if(!u)continue;const at=px&&px.dataset.at?+px.dataset.at:Date.parse(u.dataset.at);if(isNaN(at))continue;
+ const m=Math.max(0,Math.floor((Date.now()-at)/6e4));u.textContent=m<1?'Updated just now':m<60?'Updated '+m+' min ago':m<1440?'Updated '+Math.floor(m/60)+' h ago':'Updated '+Math.floor(m/1440)+(m<2880?' day ago':' days ago')}};
+REL();setInterval(REL,30000);document.addEventListener('pxupd',REL);   // relative "Updated X min ago" from price_at (or the live fetch time)
 for(const a of A){const t=a.querySelector('h3').textContent;a.tabIndex=0;a.setAttribute('aria-haspopup','dialog');a.setAttribute('aria-label',t+': open the cycle chart');
  const b=document.createElement('button');b.type='button';b.className='shr';b.setAttribute('aria-label','Share '+t+' card as an image');b.title='Share as image';
  b.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
