@@ -127,12 +127,12 @@
      "Neutral"
     ]
    ],
-   "close": 81383.14,
-   "sma200w": 67418.59324906729,
-   "close_vs_sma": 1.2071319806294818,
-   "pct_vs_sma": 20.7,
-   "pct_vs_2x_sma": -39.6,
-   "rsi_month": 52.2,
+   "close": 81322.01,
+   "sma200w": 67417.2643360238,
+   "close_vs_sma": 1.2062490342929315,
+   "pct_vs_sma": 20.6,
+   "pct_vs_2x_sma": -39.7,
+   "rsi_month": 52.1,
    "cycles_tested": 4,
    "completed_cycles": 3,
    "profitable_completed_cycles": 3,
@@ -167,7 +167,7 @@
     "zone": "buy",
     "date": "2026-09-01"
    },
-   "price_at": "2026-10-22T19:05Z"
+   "price_at": "2026-10-22T19:10Z"
   },
   {
    "ticker": "LTC",
@@ -277,12 +277,12 @@
      "Buy"
     ]
    ],
-   "close": 58.4,
-   "sma200w": 79.87066079658744,
-   "close_vs_sma": 0.7311821314303587,
-   "pct_vs_sma": -26.9,
-   "pct_vs_2x_sma": -63.4,
-   "rsi_month": 44.4,
+   "close": 58.28,
+   "sma200w": 79.86805210093527,
+   "close_vs_sma": 0.7297035356057912,
+   "pct_vs_sma": -27.0,
+   "pct_vs_2x_sma": -63.5,
+   "rsi_month": 44.3,
    "cycles_tested": 3,
    "completed_cycles": 2,
    "profitable_completed_cycles": 2,
@@ -337,7 +337,7 @@
     "zone": "buy",
     "date": "2025-11-01"
    },
-   "price_at": "2026-10-22T19:05Z"
+   "price_at": "2026-10-22T19:10Z"
   },
   {
    "ticker": "DOGE",
@@ -447,9 +447,9 @@
      "Buy"
     ]
    ],
-   "close": 0.07849,
-   "sma200w": 0.13511439326063945,
-   "close_vs_sma": 0.5809151645938312,
+   "close": 0.07847,
+   "sma200w": 0.13511395847803076,
+   "close_vs_sma": 0.580769010721857,
    "pct_vs_sma": -41.9,
    "pct_vs_2x_sma": -71.0,
    "rsi_month": 42.5,
@@ -483,7 +483,7 @@
     "zone": "strong buy",
     "date": "2026-09-21"
    },
-   "price_at": "2026-10-22T19:05Z"
+   "price_at": "2026-10-22T19:10Z"
   },
   {
    "ticker": "TOTALES",
@@ -593,11 +593,11 @@
      "Neutral"
     ]
    ],
-   "close": 2415598383011.0,
-   "sma200w": 2115588223789.261,
-   "close_vs_sma": 1.1418093350341998,
-   "pct_vs_sma": 14.2,
-   "pct_vs_2x_sma": -42.9,
+   "close": 2413114805421.0,
+   "sma200w": 2115534232972.087,
+   "close_vs_sma": 1.1406645034672145,
+   "pct_vs_sma": 14.1,
+   "pct_vs_2x_sma": -43.0,
    "rsi_month": 51.0,
    "cycles_tested": 3,
    "completed_cycles": 2,
@@ -641,7 +641,7 @@
     "zone": "buy",
     "date": "2026-09-01"
    },
-   "price_at": "2026-10-22T19:05Z"
+   "price_at": "2026-10-22T19:10Z"
   },
   {
    "ticker": "TOTAL2ES",
@@ -751,11 +751,11 @@
      "Buy"
     ]
    ],
-   "close": 780916323191.0,
-   "sma200w": 778458201691.9348,
-   "close_vs_sma": 1.0031576794922612,
-   "pct_vs_sma": 0.3,
-   "pct_vs_2x_sma": -49.8,
+   "close": 779702014723.0,
+   "sma200w": 778431803681.7609,
+   "close_vs_sma": 1.0016317563532622,
+   "pct_vs_sma": 0.2,
+   "pct_vs_2x_sma": -49.9,
    "rsi_month": 48.8,
    "cycles_tested": 4,
    "completed_cycles": 3,
@@ -795,7 +795,7 @@
     "zone": "buy",
     "date": "2026-10-01"
    },
-   "price_at": "2026-10-22T19:05Z"
+   "price_at": "2026-10-22T19:10Z"
   },
   {
    "ticker": "TOTAL3ES",
@@ -905,12 +905,12 @@
      "Neutral"
     ]
    ],
-   "close": 489963879279.0,
-   "sma200w": 470661991284.587,
-   "close_vs_sma": 1.0410100844169126,
-   "pct_vs_sma": 4.1,
-   "pct_vs_2x_sma": -47.9,
-   "rsi_month": 49.0,
+   "close": 489172090463.0,
+   "sma200w": 470644778484.23914,
+   "close_vs_sma": 1.0393658079845909,
+   "pct_vs_sma": 3.9,
+   "pct_vs_2x_sma": -48.0,
+   "rsi_month": 48.9,
    "cycles_tested": 3,
    "completed_cycles": 2,
    "profitable_completed_cycles": 2,
@@ -945,7 +945,7 @@
     "zone": "buy",
     "date": "2026-09-01"
    },
-   "price_at": "2026-10-22T19:05Z"
+   "price_at": "2026-10-22T19:10Z"
   }
  ],
  "not_qualified": [
@@ -1107,6 +1107,6 @@
   "backtest": "surf-backtest/v4/results.md",
   "rules": "stc/text.txt"
  },
- "generated": "2026-10-22T21:05+02:00",
- "built": "2026-10-22T19:05Z"
+ "generated": "2026-10-22T21:11+02:00",
+ "built": "2026-10-22T19:11Z"
 }
